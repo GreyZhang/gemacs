@@ -21,6 +21,7 @@
 (smartparens-global-mode t)
 (load-theme 'monokai t)
 (setq inhibit-startup-screen t)
+(setq cursor-in-non-selected-windows nil)
 
 
 (custom-set-variables
