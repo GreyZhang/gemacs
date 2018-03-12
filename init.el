@@ -20,6 +20,7 @@
 (require 'smartparens-config)
 (smartparens-global-mode t)
 (load-theme 'monokai t)
+(setq inhibit-startup-screen t)
 
 
 (custom-set-variables
