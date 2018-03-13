@@ -23,6 +23,7 @@
 (setq inhibit-startup-screen t)
 (setq cursor-in-non-selected-windows nil)
 (setq delete-old-versions t)
+(show-smartparens-global-mode t)
 
 
 (custom-set-variables
