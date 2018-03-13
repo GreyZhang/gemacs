@@ -42,7 +42,8 @@
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(menu-bar-mode nil)
- '(package-selected-packages (quote (monokai-theme smartparens company undo-tree))))
+ '(package-selected-packages (quote (monokai-theme smartparens company undo-tree)))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
