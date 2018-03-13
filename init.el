@@ -36,6 +36,7 @@
 	c-indent-level 4
 	c-default-style "bsd"))
 (add-hook 'c-mode-common-hook 'my-c-mode-hook)
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 
 (custom-set-variables
