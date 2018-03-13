@@ -26,6 +26,7 @@
 (show-smartparens-global-mode t)
 (add-to-list 'default-frame-alist '(width . 100))
 (add-to-list 'default-frame-alist '(height . 50))
+(scroll-bar-mode 0)
 
 
 (custom-set-variables
