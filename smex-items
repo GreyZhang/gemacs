@@ -1,0 +1,17 @@
+
+;; ----- smex-history -----
+(
+ dired
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+ erc
+)
+
+;; ----- smex-data -----
+(
+ (dired . 1)
+ (open-my-emacs-init-file . 1)
+)

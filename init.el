@@ -42,6 +42,10 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+(defun open-my-emacs-init-file ()
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
+(global-set-key (kbd "<f1>") 'open-my-emacs-init-file)
 
 
 (custom-set-variables
