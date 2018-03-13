@@ -22,6 +22,7 @@
 (load-theme 'monokai t)
 (setq inhibit-startup-screen t)
 (setq cursor-in-non-selected-windows nil)
+(setq delete-old-versions t)
 
 
 (custom-set-variables
