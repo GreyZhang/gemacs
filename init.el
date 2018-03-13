@@ -24,6 +24,8 @@
 (setq cursor-in-non-selected-windows nil)
 (setq delete-old-versions t)
 (show-smartparens-global-mode t)
+(add-to-list 'default-frame-alist '(width . 100))
+(add-to-list 'default-frame-alist '(height . 50))
 
 
 (custom-set-variables
