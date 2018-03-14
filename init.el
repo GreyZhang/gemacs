@@ -81,6 +81,11 @@
 (require 'dired-x)
 (setq dired-dwin-target 1)
 ;;********************************************************************************
+;; recentf configurations
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 10)
+;;********************************************************************************
 ;; Evil configurations
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)
@@ -92,6 +97,7 @@
   "fed" 'open-my-emacs-init-file
   "SPC" 'helm-M-x
   "tm" 'org-pomodoro
+  "fr" 'helm-recentf
   )
 
 
