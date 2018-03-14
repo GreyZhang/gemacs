@@ -30,6 +30,8 @@
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)
 (evil-mode 1)
+;; evil-leader
+(global-evil-leader-mode)
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
@@ -98,7 +100,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
