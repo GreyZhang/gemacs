@@ -70,6 +70,7 @@
 ;; Org mode configurations
 (setq org-src-fontify-natively t)
 (require 'htmlize)
+(require 'org-pomodoro)
 ;;********************************************************************************
 ;; dired mode
 (setq dired-recursive-deletes 'always)
@@ -90,6 +91,7 @@
   "ff" 'helm-find-files
   "fed" 'open-my-emacs-init-file
   "SPC" 'helm-M-x
+  "tm" 'org-pomodoro
   )
 
 
@@ -114,7 +116,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
