@@ -19,7 +19,7 @@
 (global-company-mode t)
 (require 'smartparens-config)
 (smartparens-global-mode t)
-(load-theme 'solarized-light t)
+(load-theme 'monokai t)
 (setq inhibit-startup-screen t)
 (setq cursor-in-non-selected-windows nil)
 (setq delete-old-versions t)
@@ -46,7 +46,9 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 (global-set-key (kbd "<f1>") 'open-my-emacs-init-file)
-
+(require 'helm-config)
+(global-set-key (kbd "C-x C-f") #'helm-find-files)
+(helm-mode 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
