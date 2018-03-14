@@ -33,7 +33,7 @@
 ;; evil-leader
 (global-evil-leader-mode)
 (evil-leader/set-key
-  "ff" 'find-file
+  "ff" 'helm-find-files
   )
 ;;********************************************************************************
 ;; undo-tree configurations
