@@ -74,6 +74,7 @@
 ;;********************************************************************************
 ;; Org mode configurations
 (setq org-src-fontify-natively t)
+(require 'htmlize)
 
 
 
@@ -96,7 +97,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
