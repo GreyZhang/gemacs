@@ -23,18 +23,7 @@
 (defun open-my-emacs-init-file ()
   (interactive)
   (find-file "~/.emacs.d/init.el"))
-(global-set-key (kbd "<f1>") 'open-my-emacs-init-file)
 (fset 'yes-or-no-p 'y-or-n-p)
-;;********************************************************************************
-;; Evil configurations
-(add-to-list 'load-path "~/.emacs.d/evil")
-(require 'evil)
-(evil-mode 1)
-;; evil-leader
-(global-evil-leader-mode)
-(evil-leader/set-key
-  "ff" 'helm-find-files
-  )
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
@@ -81,6 +70,17 @@
 ;; Org mode configurations
 (setq org-src-fontify-natively t)
 (require 'htmlize)
+;;********************************************************************************
+;; Evil configurations
+(add-to-list 'load-path "~/.emacs.d/evil")
+(require 'evil)
+(evil-mode 1)
+;; evil-leader
+(global-evil-leader-mode)
+(evil-leader/set-key
+  "ff" 'helm-find-files
+  "fed" 'open-my-emacs-init-file
+  )
 
 
 
