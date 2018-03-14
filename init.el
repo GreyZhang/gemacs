@@ -56,7 +56,7 @@
   (setq c-basic-offset 4
 	c-indent-level 4
 	c-default-style "bsd"))
-(add-hook 'c-mode-common-hook 'my-c-mode-hook)
+;;(add-hook 'c-mode-common-hook 'my-c-mode-hook)
 ;;********************************************************************************
 ;; smex configurations
 ;;(require 'smex) ; Not needed if you use package.el
