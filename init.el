@@ -71,6 +71,7 @@
 (setq org-src-fontify-natively t)
 (require 'htmlize)
 (require 'org-pomodoro)
+(global-set-key (kbd "<f1>") 'org-pomodoro)
 ;;********************************************************************************
 ;; dired mode
 (setq dired-recursive-deletes 'always)
@@ -96,7 +97,6 @@
   "ff" 'helm-find-files
   "fed" 'open-my-emacs-init-file
   "SPC" 'helm-M-x
-  "tm" 'org-pomodoro
   "fr" 'helm-recentf
   )
 
