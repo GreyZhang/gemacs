@@ -99,6 +99,10 @@
   "SPC" 'helm-M-x
   "fr" 'helm-recentf
   )
+;;********************************************************************************
+;; hungry-delete configurations
+(require 'hungry-delete)
+(global-hungry-delete-mode)
 
 
 
@@ -122,7 +126,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
