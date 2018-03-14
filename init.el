@@ -1,5 +1,5 @@
 ;;********************************************************************************
-;; melpa source configurations
+;; MELPA source configurations
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 ;; Added by Package.el.  This must come before configurations of
@@ -54,13 +54,13 @@
 ;;(add-hook 'c-mode-common-hook 'my-c-mode-hook)
 ;;********************************************************************************
 ;; smex configurations
-;;(require 'smex) ; Not needed if you use package.el
-;;(smex-initialize) ; Can be omitted. This might cause a (minimal) delay
-                    ; when Smex is auto-initialized on its first run.
-;;(global-set-key (kbd "M-x") 'smex)
-;;(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+(require 'smex) ; Not needed if you use package.el
+(smex-initialize) ; Can be omitted. This might cause a (minimal) delay
+                  ; when Smex is auto-initialized on its first run.
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
-;;(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 ;;********************************************************************************
 ;; helm configurations
 (require 'helm-config)
@@ -70,6 +70,15 @@
 ;; Org mode configurations
 (setq org-src-fontify-natively t)
 (require 'htmlize)
+;;********************************************************************************
+;; dired mode
+(setq dired-recursive-deletes 'always)
+(setq dired-recursive-copies 'always)
+(put 'dired-find-alternate-file 'disabled nil)
+(with-eval-after-load 'dired
+    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
+(require 'dired-x)
+(setq dired-dwin-target 1)
 ;;********************************************************************************
 ;; Evil configurations
 (add-to-list 'load-path "~/.emacs.d/evil")
