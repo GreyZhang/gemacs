@@ -24,6 +24,7 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 (global-set-key (kbd "<f1>") 'open-my-emacs-init-file)
+(fset 'yes-or-no-p 'y-or-n-p)
 ;;********************************************************************************
 ;; Evil configurations
 (add-to-list 'load-path "~/.emacs.d/evil")
