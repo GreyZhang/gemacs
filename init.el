@@ -80,6 +80,7 @@
 (evil-leader/set-key
   "ff" 'helm-find-files
   "fed" 'open-my-emacs-init-file
+  "SPC" 'helm-M-x
   )
 
 
