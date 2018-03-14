@@ -90,12 +90,14 @@
  '(company-minimum-prefix-length 1)
  '(compilation-message-face (quote default))
  '(menu-bar-mode nil)
+ '(nil nil t)
  '(package-selected-packages
    (quote
 	(helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- ))
+ )
