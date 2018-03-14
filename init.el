@@ -71,6 +71,9 @@
 (require 'helm-config)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
 (helm-mode 1)
+;;********************************************************************************
+;; Org mode configurations
+(setq org-src-fontify-natively t)
 
 
 
