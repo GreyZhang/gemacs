@@ -96,6 +96,7 @@
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(compilation-message-face (quote default))
+ '(evil-leader/leader "SPC")
  '(menu-bar-mode nil)
  '(nil nil t)
  '(package-selected-packages
