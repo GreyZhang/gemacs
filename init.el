@@ -71,7 +71,11 @@
 (setq org-src-fontify-natively t)
 (require 'htmlize)
 (require 'org-pomodoro)
-(global-set-key (kbd "<f1>") 'org-pomodoro)
+(global-set-key (kbd "<f2>") 'org-pomodoro)
+(defun open-my-todo-list ()
+  (interactive)
+  (find-file "~/task.org"))
+(global-set-key (kbd "<f1>") 'open-my-todo-list)
 ;;********************************************************************************
 ;; dired mode
 (setq dired-recursive-deletes 'always)
