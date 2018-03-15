@@ -24,6 +24,7 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 (fset 'yes-or-no-p 'y-or-n-p)
+(setq auto-save-default nil)
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
