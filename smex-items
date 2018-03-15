@@ -16,6 +16,6 @@
  (open-my-emacs-init-file . 1)
  (package-refresh-contents . 1)
  (package-install . 1)
- (eval-buffer . 2)
+ (eval-buffer . 3)
  (org-pomodoro . 1)
 )

@@ -103,6 +103,7 @@
   "fed" 'open-my-emacs-init-file
   "SPC" 'helm-M-x
   "fr" 'helm-recentf
+  "fj" 'dired-jump
   )
 ;;********************************************************************************
 ;; hungry-delete configurations
