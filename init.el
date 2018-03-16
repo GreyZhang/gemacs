@@ -139,7 +139,8 @@
  '(package-selected-packages
    (quote
 	(which-key evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
- '(tool-bar-mode nil))
+ '(tool-bar-mode nil)
+ '(which-key-idle-delay 0.1))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
