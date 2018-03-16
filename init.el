@@ -97,6 +97,7 @@
 (require 'evil)
 (evil-mode 1)
 ;; evil-leader
+(require 'evil-leader)
 (global-evil-leader-mode)
 (evil-leader/set-key
   "ff" 'helm-find-files
@@ -104,7 +105,9 @@
   "SPC" 'helm-M-x
   "fr" 'helm-recentf
   "fj" 'dired-jump
+  "cl" 'evilnc-comment-or-uncomment-lines
   )
+
 ;;********************************************************************************
 ;; hungry-delete configurations
 (require 'hungry-delete)
@@ -132,7 +135,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
