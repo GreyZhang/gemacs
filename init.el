@@ -112,6 +112,9 @@
 ;; hungry-delete configurations
 (require 'hungry-delete)
 (global-hungry-delete-mode)
+;;********************************************************************************
+;; which-key configurations
+(which-key-mode 1)
 
 
 
@@ -135,7 +138,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(which-key evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
