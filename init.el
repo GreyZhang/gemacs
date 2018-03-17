@@ -92,6 +92,9 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 10)
 ;;********************************************************************************
+;; window-numbering configurations
+(window-numbering-mode 1)
+;;********************************************************************************
 ;; Evil configurations
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)
@@ -106,6 +109,10 @@
   "fr" 'helm-recentf
   "fj" 'dired-jump
   "cl" 'evilnc-comment-or-uncomment-lines
+  "1"  'select-window-1
+  "2"  'select-window-2
+  "3"  'select-window-3
+  "4"  'select-window-4
   )
 
 ;;********************************************************************************
@@ -138,7 +145,7 @@
  '(nil nil t)
  '(package-selected-packages
    (quote
-	(which-key evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
+	(window-numbering which-key evil-nerd-commenter hungry-delete org-pomodoro evil-leader htmlize helm smex solarized-theme monokai-theme smartparens company undo-tree)))
  '(tool-bar-mode nil)
  '(which-key-idle-delay 0.1))
 (custom-set-faces
