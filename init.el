@@ -45,13 +45,13 @@
 ;;********************************************************************************
 ;; C/C++ language configurations
 ;; Use TAB itself as indent method in C/C++
-(global-set-key (kbd "TAB") 'self-insert-command)
-(setq default-tab-width 4)
-(setq backward-delete-char-untabify-method nil)
-(defun my-c-mode-hook ()
-  (setq c-basic-offset 4
-	c-indent-level 4
-	c-default-style "bsd"))
+;; (global-set-key (kbd "TAB") 'self-insert-command)
+;; (setq default-tab-width 4)
+;; (setq backward-delete-char-untabify-method nil)
+;; (defun my-c-mode-hook ()
+;;   (setq c-basic-offset 4
+;; 	c-indent-level 4
+;; 	c-default-style "bsd"))
 ;;(add-hook 'c-mode-common-hook 'my-c-mode-hook)
 ;;********************************************************************************
 ;; smex configurations
@@ -114,6 +114,7 @@
   "3"  'select-window-3
   "4"  'select-window-4
   "pf" 'project-find-file
+  "w/" 'split-window-right
   )
 
 ;;********************************************************************************
