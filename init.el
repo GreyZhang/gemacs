@@ -39,16 +39,6 @@
    (exec-path-from-shell-initialize))
 
 ;;********************************************************************************
-;; MELPA source configurations
-(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
-;; Added by Package.el.  This must come before configurations of
-;; installed packages.  Don't delete this line.  If you don't want it,
-;; just comment it out by adding a semicolon to the start of the line.
-;; You may delete these explanatory comments.
-(package-initialize)
-
-;;********************************************************************************
 ;; Common emacs configurations
 (setq make-backup-files nil)
 (global-linum-mode t)
