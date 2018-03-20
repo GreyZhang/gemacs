@@ -25,6 +25,8 @@
   (find-file "~/.emacs.d/init.el"))
 (fset 'yes-or-no-p 'y-or-n-p)
 (setq auto-save-default nil)
+;; I love TAB! However, Emacs seems not kind to it!
+(setq-default indent-tabs-mode nil)
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
@@ -45,14 +47,12 @@
 ;;********************************************************************************
 ;; C/C++ language configurations
 ;; Use TAB itself as indent method in C/C++
-;; (global-set-key (kbd "TAB") 'self-insert-command)
-;; (setq default-tab-width 4)
-;; (setq backward-delete-char-untabify-method nil)
-;; (defun my-c-mode-hook ()
-;;   (setq c-basic-offset 4
-;; 	c-indent-level 4
-;; 	c-default-style "bsd"))
-;;(add-hook 'c-mode-common-hook 'my-c-mode-hook)
+(setq backward-delete-char-untabify-method nil)
+(defun my-c-mode-hook ()
+  (setq c-basic-offset 4
+	c-indent-level 4
+	c-default-style "bsd"))
+(add-hook 'c-mode-common-hook 'my-c-mode-hook)
 ;;********************************************************************************
 ;; smex configurations
 (require 'smex) ; Not needed if you use package.el
