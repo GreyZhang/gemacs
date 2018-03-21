@@ -14,6 +14,7 @@
                 company
                 ;; --- Better Editor ---
                 hungry-delete
+                ivy
                 ;; swiper
                 ;; counsel
                 smartparens
@@ -37,7 +38,9 @@
  ;; Find Executable Path on OS X
  (when (memq window-system '(mac ns))
    (exec-path-from-shell-initialize))
-
+;;********************************************************************************
+;; ivy configurations
+(ivy-mode 1)
 ;;********************************************************************************
 ;; Common emacs configurations
 (setq make-backup-files nil)
