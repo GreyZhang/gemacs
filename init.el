@@ -35,11 +35,6 @@
        (when (not (package-installed-p pkg))
          (package-install pkg))))
 
- ;; Find Executable Path on OS X
- (when (memq window-system '(mac ns))
-   (exec-path-from-shell-initialize))
-
-
 
 ;;********************************************************************************
 ;; ivy configurations
@@ -65,6 +60,8 @@
 (setq auto-save-default nil)
 ;; I love TAB! However, Emacs seems not kind to it!
 (setq-default indent-tabs-mode nil)
+
+;; Configurations for garbage collection.
 (when (eq system-type 'windows-nt)
   (setq gc-cons-threshold (* 512 1024 1024))
   (setq gc-cons-percentage 0.5)
