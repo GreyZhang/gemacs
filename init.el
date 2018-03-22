@@ -38,9 +38,14 @@
  ;; Find Executable Path on OS X
  (when (memq window-system '(mac ns))
    (exec-path-from-shell-initialize))
+
+
+
 ;;********************************************************************************
 ;; ivy configurations
 (ivy-mode 1)
+
+
 ;;********************************************************************************
 ;; Common emacs configurations
 (setq make-backup-files nil)
@@ -64,23 +69,35 @@
   (setq gc-cons-threshold (* 512 1024 1024))
   (setq gc-cons-percentage 0.5)
   (run-with-idle-timer 5 t #'garbage-collect))
+
+
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
 (add-to-list 'load-path "~/.emacs.d/packages/goto-chg")
+
+
 ;;********************************************************************************
 ;; goto-chg configurations
 (require 'goto-chg)
+
+
 ;;********************************************************************************
 ;; company configurations
 (global-company-mode t)
+
+
 ;;********************************************************************************
 ;; smartparens configurations
 (require 'smartparens-config)
 (smartparens-global-mode t)
+
+
 ;;********************************************************************************
 ;; theme selection
 ;; (load-theme 'solarized-light t)
+
+
 ;;********************************************************************************
 ;; C/C++ language configurations
 ;; Use TAB itself as indent method in C/C++
@@ -90,6 +107,8 @@
 	c-indent-level 4
 	c-default-style "bsd"))
 (add-hook 'c-mode-common-hook 'my-c-mode-hook)
+
+
 ;;********************************************************************************
 ;; smex configurations
 (require 'smex) ; Not needed if you use package.el
@@ -99,11 +118,15 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+
 ;;********************************************************************************
 ;; helm configurations
 (require 'helm-config)
 (global-set-key (kbd "C-x C-f") #'helm-find-files)
 (helm-mode 1)
+
+
 ;;********************************************************************************
 ;; Org mode configurations
 (setq org-src-fontify-natively t)
@@ -114,6 +137,8 @@
   (interactive)
   (find-file "~/task.org"))
 (global-set-key (kbd "<f1>") 'open-my-todo-list)
+
+
 ;;********************************************************************************
 ;; dired mode
 (setq dired-recursive-deletes 'always)
@@ -123,19 +148,28 @@
     (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 (require 'dired-x)
 (setq dired-dwin-target 1)
+
+
 ;;********************************************************************************
 ;; recentf configurations
 (require 'recentf)
 (recentf-mode 1)
 (setq recentf-max-menu-items 10)
+
+
 ;;********************************************************************************
 ;; window-numbering configurations
 (window-numbering-mode 1)
+
+
 ;;********************************************************************************
 ;; Evil configurations
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)
 (evil-mode 1)
+
+
+;;********************************************************************************
 ;; evil-leader
 (require 'evil-leader)
 (global-evil-leader-mode)
@@ -158,10 +192,11 @@
 ;; hungry-delete configurations
 (require 'hungry-delete)
 (global-hungry-delete-mode)
+
+
 ;;********************************************************************************
 ;; which-key configurations
 (which-key-mode 1)
-
 
 
 ;;********************************************************************************
