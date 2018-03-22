@@ -60,6 +60,10 @@
 (setq auto-save-default nil)
 ;; I love TAB! However, Emacs seems not kind to it!
 (setq-default indent-tabs-mode nil)
+(when (eq system-type 'windows-nt)
+  (setq gc-cons-threshold (* 512 1024 1024))
+  (setq gc-cons-percentage 0.5)
+  (run-with-idle-timer 5 t #'garbage-collect))
 ;;********************************************************************************
 ;; undo-tree configurations
 (global-undo-tree-mode)
@@ -76,7 +80,7 @@
 (smartparens-global-mode t)
 ;;********************************************************************************
 ;; theme selection
-;; (load-theme 'monokai t)
+;; (load-theme 'solarized-light t)
 ;;********************************************************************************
 ;; C/C++ language configurations
 ;; Use TAB itself as indent method in C/C++
