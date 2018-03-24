@@ -1,4 +1,6 @@
 (require 'g-emacs-comm)
 (require 'g-evil)
 (require 'g-smex)
+(require 'g-company)
+(require 'g-smartparens)
 (provide 'g-config)

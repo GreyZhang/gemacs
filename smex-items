@@ -1,16 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ recentf-open-files
+ customize-group
+ dired
  package-install
  cd
  5x5
  arp
- dbx
- dig
- erc
 )
 
 ;; ----- smex-data -----
 (
  (package-install . 1)
+ (recentf-open-files . 10)
+ (dired . 4)
+ (customize-group . 2)
 )
