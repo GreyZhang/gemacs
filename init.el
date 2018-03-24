@@ -10,15 +10,6 @@
 
  ;; Add Packages
  (defvar my/packages '(
-                ;; --- Auto-completion ---
-                company
-                ;; --- Better Editor ---
-                hungry-delete
-                ivy
-                ;; swiper
-                ;; counsel
-                smartparens
-                ;; --- Themes ---
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -35,3 +26,5 @@
        (when (not (package-installed-p pkg))
          (package-install pkg))))
 
+(add-to-list 'load-path "~/.emacs.d/g-config")
+(require 'g-config)
