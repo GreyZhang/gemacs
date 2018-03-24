@@ -3,4 +3,5 @@
 (require 'g-smex)
 (require 'g-company)
 (require 'g-smartparens)
+(require 'g-evil-leader)
 (provide 'g-config)

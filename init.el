@@ -14,6 +14,8 @@
 		      smex
 		      company
 		      smartparens
+		      evil-leader
+		      helm
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
