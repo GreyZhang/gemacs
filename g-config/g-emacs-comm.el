@@ -1,2 +1,7 @@
 (setq make-backup-files nil)
+(setq visible-bell 0)
+(setq inhibit-startup-screen t)
+(fset 'yes-or-no-p'y-or-n-p)
+(add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
+(global-linum-mode t)
 (provide 'g-emacs-comm)
