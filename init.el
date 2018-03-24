@@ -9,7 +9,8 @@
  (require 'cl)
 
  ;; Add Packages
- (defvar my/packages '(
+(defvar my/packages '(
+		      evil
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
