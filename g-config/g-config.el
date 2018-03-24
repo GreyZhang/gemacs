@@ -5,4 +5,5 @@
 (require 'g-smartparens)
 (require 'g-evil-leader)
 (require 'g-org)
+(require 'g-dired)
 (provide 'g-config)
