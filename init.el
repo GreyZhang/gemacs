@@ -16,6 +16,8 @@
 		      smartparens
 		      evil-leader
 		      helm
+		      org-pomodoro
+			  htmlize
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

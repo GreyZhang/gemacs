@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ image-dired-jump-thumbnail-buffer
  recentf-open-files
  dired
  customize-group
  package-install
  cd
  5x5
- arp
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,5 @@
  (recentf-open-files . 13)
  (dired . 5)
  (customize-group . 2)
+ (image-dired-jump-thumbnail-buffer . 1)
 )

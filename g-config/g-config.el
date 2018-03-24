@@ -4,4 +4,5 @@
 (require 'g-company)
 (require 'g-smartparens)
 (require 'g-evil-leader)
+(require 'g-org)
 (provide 'g-config)
