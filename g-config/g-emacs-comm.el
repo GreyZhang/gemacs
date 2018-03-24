@@ -12,5 +12,6 @@
   (setq gc-cons-threshold (* 512 1024 1024))
   (setq gc-cons-percentage 0.5)
   (run-with-idle-timer 5 t #'garbage-collect))
+(setq-default indent-tabs-mode nil)
 (provide 'g-emacs-comm)
 

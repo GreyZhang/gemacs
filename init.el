@@ -17,7 +17,8 @@
 		      evil-leader
 		      helm
 		      org-pomodoro
-			  htmlize
+                      htmlize
+                      evil-nerd-commenter
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
