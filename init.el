@@ -11,6 +11,7 @@
  ;; Add Packages
 (defvar my/packages '(
 		      evil
+		      smex
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
