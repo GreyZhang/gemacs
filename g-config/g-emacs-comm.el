@@ -4,7 +4,7 @@
 (fset 'yes-or-no-p'y-or-n-p)
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
 (global-linum-mode t)
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;; (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (require 'recentf)
 (recentf-mode 1)
 (setq recentf-max-menu-items 10)
