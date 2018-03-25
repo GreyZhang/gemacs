@@ -6,4 +6,5 @@
 (require 'g-evil-leader)
 (require 'g-org)
 (require 'g-dired)
+(require 'g-window-numbering)
 (provide 'g-config)

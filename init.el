@@ -19,6 +19,7 @@
 		      org-pomodoro
                       htmlize
                       evil-nerd-commenter
+                      window-numbering
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
