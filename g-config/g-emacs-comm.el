@@ -13,5 +13,8 @@
   (setq gc-cons-percentage 0.5)
   (run-with-idle-timer 5 t #'garbage-collect))
 (setq-default indent-tabs-mode nil)
+(defun open-my-emacs-init-file ()
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
 (provide 'g-emacs-comm)
 
