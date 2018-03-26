@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  recentf-open-files
  helm-recentf
  image-dired-jump-thumbnail-buffer
  dired
  customize-group
  package-install
- cd
 )
 
 ;; ----- smex-data -----
@@ -18,4 +18,5 @@
  (customize-group . 2)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
+ (eval-buffer . 6)
 )

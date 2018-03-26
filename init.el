@@ -1,4 +1,4 @@
-;; The following configurations is copied from spacemacs-rocks from zilongshanren.
+; The following configurations is copied from spacemacs-rocks from zilongshanren.
 (when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
@@ -20,6 +20,8 @@
                       htmlize
                       evil-nerd-commenter
                       window-numbering
+                      powershell
+                      sound-wav
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

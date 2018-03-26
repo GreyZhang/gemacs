@@ -16,5 +16,6 @@
 (defun open-my-emacs-init-file ()
   (interactive)
   (find-file "~/.emacs.d/init.el"))
+(setq-default indent-tabs-mode nil)
 (provide 'g-emacs-comm)
 
