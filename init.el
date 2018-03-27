@@ -22,6 +22,7 @@
                       window-numbering
                       powershell
                       sound-wav
+                      solarized-theme
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -50,14 +51,15 @@
  '(company-backends
    (quote
     (company-bbdb company-nxml company-css company-eclim company-semantic company-xcode company-cmake company-capf company-files
-		  (company-dabbrev-code company-gtags company-etags company-keywords)
-		  company-oddmuse company-dabbrev)))
+                  (company-dabbrev-code company-gtags company-etags company-keywords)
+                  company-oddmuse company-dabbrev)))
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
- '(package-selected-packages (quote (evil))))
+ '(package-selected-packages (quote (evil)))
+ '(show-paren-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "Courier New" :foundry "outline" :slant normal :weight normal :height 120 :width normal)))))

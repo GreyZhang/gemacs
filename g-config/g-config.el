@@ -7,4 +7,5 @@
 (require 'g-org)
 (require 'g-dired)
 (require 'g-window-numbering)
+(require 'g-theme)
 (provide 'g-config)
