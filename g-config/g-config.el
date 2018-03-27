@@ -9,4 +9,5 @@
 (require 'g-window-numbering)
 (require 'g-theme)
 (require 'g-hungry-delete)
+(require 'g-c-common-mode)
 (provide 'g-config)
