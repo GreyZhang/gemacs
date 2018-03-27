@@ -24,6 +24,7 @@
                       sound-wav
                       solarized-theme
                       hungry-delete
+                      monokai-theme
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
