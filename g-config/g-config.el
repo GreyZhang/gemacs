@@ -8,4 +8,5 @@
 (require 'g-dired)
 (require 'g-window-numbering)
 (require 'g-theme)
+(require 'g-hungry-delete)
 (provide 'g-config)

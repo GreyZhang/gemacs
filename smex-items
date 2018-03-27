@@ -18,5 +18,5 @@
  (customize-group . 2)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
- (eval-buffer . 10)
+ (eval-buffer . 12)
 )

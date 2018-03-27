@@ -23,6 +23,7 @@
                       powershell
                       sound-wav
                       solarized-theme
+                      hungry-delete
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
