@@ -14,5 +14,6 @@
   "4"  'select-window-4
   "pf" 'project-find-file
   "w/" 'split-window-right
+  "pj" 'projectile-find-tag
   )
 (provide 'g-evil-leader)
