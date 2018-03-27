@@ -25,6 +25,7 @@
                       solarized-theme
                       hungry-delete
                       monokai-theme
+                      projectile
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
