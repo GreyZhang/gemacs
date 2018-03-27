@@ -10,4 +10,5 @@
 (require 'g-theme)
 (require 'g-hungry-delete)
 (require 'g-c-common-mode)
+(require 'g-projectile)
 (provide 'g-config)
