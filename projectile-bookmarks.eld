@@ -1,1 +1,1 @@
-("c:/Users/ThinkPad/Desktop/MPC5744P_CAN_Bootloader/" "~/.emacs.d/")
+("~/.emacs.d/" "c:/Users/ThinkPad/Desktop/MPC5744P_CAN_Bootloader/")

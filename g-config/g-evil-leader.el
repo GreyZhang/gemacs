@@ -12,7 +12,7 @@
   "2"  'select-window-2
   "3"  'select-window-3
   "4"  'select-window-4
-  "pf" 'project-find-file
+  "pf" 'projectile-find-file
   "w/" 'split-window-right
   "pj" 'projectile-find-tag
   )
