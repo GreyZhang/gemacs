@@ -15,5 +15,6 @@
   "pf" 'projectile-find-file
   "w/" 'split-window-right
   "pj" 'projectile-find-tag
+  "pR" 'projectile-regenerate-tags
   )
 (provide 'g-evil-leader)

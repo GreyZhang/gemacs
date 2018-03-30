@@ -51,6 +51,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
  '(company-backends
    (quote
     (company-bbdb company-nxml company-css company-eclim company-semantic company-xcode company-cmake company-capf company-files
@@ -59,6 +63,9 @@
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
  '(cua-mode t nil (cua-base))
+ '(custom-safe-themes
+   (quote
+    ("f0c98535db38af17e81e491a77251e198241346306a90c25eb982b57e687d7c0" default)))
  '(package-selected-packages (quote (evil)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))

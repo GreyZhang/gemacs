@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ customize-themes
  eval-buffer
  projectile-grep
  recentf-open-files
  helm-recentf
  image-dired-jump-thumbnail-buffer
  dired
- customize-group
 )
 
 ;; ----- smex-data -----
@@ -20,4 +20,5 @@
  (helm-recentf . 1)
  (eval-buffer . 19)
  (projectile-grep . 1)
+ (customize-themes . 1)
 )
