@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-themes
  eval-buffer
+ projectile-clear-known-projects
+ projectile-remove-known-project
+ customize-themes
  projectile-grep
  recentf-open-files
  helm-recentf
- image-dired-jump-thumbnail-buffer
- dired
 )
 
 ;; ----- smex-data -----
@@ -18,7 +18,10 @@
  (customize-group . 2)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
- (eval-buffer . 19)
+ (eval-buffer . 27)
  (projectile-grep . 1)
  (customize-themes . 1)
+ (org-pomodoro-extend-last-clock . 1)
+ (projectile-remove-known-project . 1)
+ (projectile-clear-known-projects . 1)
 )

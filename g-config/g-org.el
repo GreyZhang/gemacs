@@ -6,5 +6,5 @@
   (interactive)
   (find-file "~/task.org"))
 (global-set-key (kbd "<f1>") 'open-my-todo-list)
-(global-set-key (kbd "<f3>") 'org-todo)
+;; (global-set-key (kbd "<f3>") 'org-todo)
 (provide 'g-org)

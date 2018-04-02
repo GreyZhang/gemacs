@@ -17,5 +17,6 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 (setq-default indent-tabs-mode nil)
+(menu-bar-mode 0)
 (provide 'g-emacs-comm)
 
