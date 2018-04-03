@@ -1,1 +1,1 @@
-("~/.emacs.d/" "c:/Users/ThinkPad/Desktop/MPC5744P_CAN_Bootloader/" "e:/work/s32ds/eTimer_Freq_Measurement_MPC5744P1/")
+("~/.emacs.d/" "c:/Users/ThinkPad/Desktop/git_test/" "c:/Users/ThinkPad/Desktop/work/zhuopin_minios/" "c:/Users/ThinkPad/Desktop/MPC5744P_CAN_Bootloader/" "e:/work/s32ds/eTimer_Freq_Measurement_MPC5744P1/")

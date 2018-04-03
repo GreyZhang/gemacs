@@ -19,4 +19,4 @@
 (setq-default indent-tabs-mode nil)
 (menu-bar-mode 0)
 (provide 'g-emacs-comm)
-
+(global-auto-revert-mode 1)
