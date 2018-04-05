@@ -20,3 +20,4 @@
 (menu-bar-mode 0)
 (provide 'g-emacs-comm)
 (global-auto-revert-mode 1)
+(setq initial-frame-alist (quote ((fullscreen . maximized))))
