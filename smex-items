@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
+ neotree-toggle
+ neotree-show
+ neotree-dir
  recentf-open-files
  calc
- projectile-clear-known-projects
- eval-buffer
- projectile-remove-known-project
- customize-themes
- projectile-grep
+ dired
 )
 
 ;; ----- smex-data -----
@@ -18,11 +18,15 @@
  (customize-group . 2)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
- (eval-buffer . 29)
+ (eval-buffer . 38)
  (projectile-grep . 1)
  (customize-themes . 1)
  (org-pomodoro-extend-last-clock . 1)
  (projectile-remove-known-project . 1)
  (projectile-clear-known-projects . 2)
  (calc . 2)
+ (neotree-dir . 2)
+ (neotree-show . 4)
+ (neotree-toggle . 2)
+ (neotree-change-root . 10)
 )
