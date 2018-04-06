@@ -26,6 +26,7 @@
                       hungry-delete
                       monokai-theme
                       projectile
+                      neotree
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

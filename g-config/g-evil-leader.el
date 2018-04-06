@@ -17,5 +17,6 @@
   "pj" 'projectile-find-tag
   "pD" 'projectile-dired
   "psg" 'projectile-grep
-  "pR" 'projectile-regenerate-tags)
+  "pR" 'projectile-regenerate-tags
+  "fT" 'neotree-toggle)
 (provide 'g-evil-leader)
