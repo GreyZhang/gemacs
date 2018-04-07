@@ -20,4 +20,18 @@
 (menu-bar-mode 0)
 (provide 'g-emacs-comm)
 (global-auto-revert-mode 1)
+;;set the mode enabled  
+(setq semantic-default-submodes '(global-semanticdb-minor-mode  
+                                  global-semantic-idle-scheduler-mode  
+                                  global-semantic-idle-summary-mode  
+                                  global-semantic-idle-completions-mode  
+                                  global-semantic-decoration-mode  
+                                  global-semantic-highlight-func-mode  
+                                  global-semantic-stickyfunc-mode  
+                                  global-semantic-mru-bookmark-mode  
+                                  global-semantic-tag-folding-mode))  
+;;enable cedet  
+(semantic-mode 1)
+
+
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
