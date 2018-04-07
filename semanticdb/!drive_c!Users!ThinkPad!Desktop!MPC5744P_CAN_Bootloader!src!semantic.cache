@@ -1,0 +1,69 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("derivative.h" include nil nil [1080 1103])
+            ("compiler_api.h" include nil nil [1142 1167])
+            ("GetCoreID" variable (:constant-flag t) nil [1177 1186])
+            ("INTC_BCR_HVEN" variable (:constant-flag t) nil [1357 1370])
+            ("IntcIsrVectorTable" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [1713 1756])
+            ("VTABLE" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2009 2014]))                  
+                :type "void")
+                nil [1989 2015])
+            ("SetIVPR" function
+               (:arguments 
+                  ( ("x" variable
+                       (:typemodifiers ("register")
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [2570 2594]))                  
+                :type "void")
+                nil [2556 2616])
+            ("InitINTC" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7841 7846]))                  
+                :type "void")
+                nil [7827 9293])
+            ("enableIrq" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9696 9701]))                  
+                :type "void")
+                nil [9681 10344])
+            ("xcptn_xmpl" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10748 10753]))                  
+                :type "void")
+                nil [10732 11004]))          
+      :file "MPC57xx__Interrupt_Init.c"
+      :pointmax 11007
+      :fsize 11006
+      :lastmodtime '(23231 8052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("INTC_BCR_HVEN" (spp-arg-list ("coreId") 1370 . 1378) . ((semantic-list "( (uint32_t) (0x1UL << ((coreId) << 3UL)) )" 1381 . 1424)))
+          ("GetCoreID" (spp-arg-list nil 1186 . 1188) . ((semantic-list "((uint16_t) MFSPR(286))" 1189 . 1212)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "MPC574xP_SystemInit.h"
+      :fsize 449
+      :lastmodtime '(23037 18582 0 0))
+    (semanticdb-table "semanticdb-table"
+      :file "load.h"
+      :fsize 2542
+      :lastmodtime '(23037 56434 0 0)))
+  :file "!drive_c!Users!ThinkPad!Desktop!MPC5744P_CAN_Bootloader!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

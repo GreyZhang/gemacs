@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-themes
  eval-buffer
+ customize-themes
  neotree-toggle
  neotree-show
  neotree-dir
  recentf-open-files
- calc
+ dired
 )
 
 ;; ----- smex-data -----
@@ -18,7 +18,7 @@
  (customize-group . 2)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
- (eval-buffer . 38)
+ (eval-buffer . 41)
  (projectile-grep . 1)
  (customize-themes . 3)
  (org-pomodoro-extend-last-clock . 1)
@@ -29,4 +29,5 @@
  (neotree-show . 4)
  (neotree-toggle . 2)
  (neotree-change-root . 10)
+ (hide-leaves . 1)
 )
