@@ -4,7 +4,7 @@
 (evil-leader/set-key
   "ff" 'helm-find-files
   "fed" 'open-my-emacs-init-file
-  "SPC" 'smex
+  "SPC" 'helm-M-x
   "fr" 'helm-recentf
   "fj" 'dired-jump
   "cl" 'evilnc-comment-or-uncomment-lines
