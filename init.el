@@ -28,6 +28,7 @@
                       projectile
                       neotree
                       helm-gtags
+                      ggtags
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
