@@ -13,6 +13,7 @@
 (require 'g-projectile)
 (require 'g-neotree)
 (require 'g-ggtags)
+(require 'g-function-args)
 
 
 (provide 'g-config)

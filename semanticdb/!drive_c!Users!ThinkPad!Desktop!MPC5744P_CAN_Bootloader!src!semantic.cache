@@ -57,9 +57,56 @@
           )
 )
     (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("MPC574XP_SYSTEMINIT_H_" variable (:constant-flag t) nil [122 144])
+            ("DRUN_MODE" variable (:constant-flag t) nil [155 164])
+            ("project.h" include nil nil [171 191])
+            ("Sys_Init" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [214 219]))                  
+                :type "void")
+                nil [193 220])
+            ("GPIO_Aux_Function_Config" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [258 263]))                  
+                :type "void")
+                nil [221 264])
+            ("Periphral_INTC_Init" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [297 302]))                  
+                :type "void")
+                nil [265 303])
+            ("PIT_Channel0_100ms_Init" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [340 345]))                  
+                :type "void")
+                nil [304 346])
+            ("PIT_Channel0_100ms_ISR" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [382 387]))                  
+                :type "void")
+                nil [347 388]))          
       :file "MPC574xP_SystemInit.h"
+      :pointmax 426
       :fsize 449
-      :lastmodtime '(23037 18582 0 0))
+      :lastmodtime '(23037 18582 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DRUN_MODE" . ((number "0x3" 166 . 169)))
+          ("MPC574XP_SYSTEMINIT_H_")
+          )
+)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
@@ -433,12 +480,23 @@
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
-        '( ("load.h" include nil nil [1 18]))          
+        '( ("load.h" include nil nil [1 18])
+            ("Sum" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [70 76])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [77 83]))                  
+                :type "int")
+                nil [62 105])
+            ("Demo" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [118 123]))                  
+                :type "void")
+                nil [108 161]))          
       :file "demo.c"
-      :pointmax 19
-      :fsize 19
-      :lastmodtime '(23242 8280 0 0)
-      :unmatched-syntax nil)
+      :pointmax 162
+      :fsize 235
+      :lastmodtime '(23242 12656 0 0)
+      :unmatched-syntax '((semantic-list 32 . 60) (symbol 27 . 31) (STRUCT 20 . 26) (semantic-list 32 . 60) (symbol 27 . 31) (STRUCT 20 . 26)))
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
@@ -608,9 +666,9 @@
                 :type "void")
                 nil [19069 19193]))          
       :file "load.c"
-      :pointmax 20288
-      :fsize 20928
-      :lastmodtime '(23037 56458 0 0)
+      :pointmax 20250
+      :fsize 20882
+      :lastmodtime '(23242 9810 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
