@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("USER_OBJS" variable nil nil [209 222])
+            ("USER_OBJS_QUOTED" variable nil nil [223 243])
+            ("LIBS" variable nil nil [244 252]))          
+      :file "objects.mk"
+      :pointmax 267
+      :fsize 276
+      :lastmodtime '(23037 56478 0 0)
+      :unmatched-syntax '((punctuation 266 . 267) (punctuation 265 . 266) (symbol 253 . 264) (bol 253 . 253))))
+  :file "!drive_c!Users!ThinkPad!Desktop!MPC5744P_CAN_Bootloader!Debug!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

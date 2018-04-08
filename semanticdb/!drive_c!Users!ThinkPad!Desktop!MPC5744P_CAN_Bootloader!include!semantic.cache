@@ -1,0 +1,35 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_COMPILER_API_H_" variable (:constant-flag t) nil [491 507])
+            ("stringify" variable (:constant-flag t) nil [624 633])
+            ("tostring" variable (:constant-flag t) nil [657 665])
+            ("VEC_ALIGN" variable (:constant-flag t) nil [1413 1422]))          
+      :file "compiler_api.h"
+      :pointmax 1462
+      :fsize 1461
+      :lastmodtime '(22984 27740 0 0)
+      :unmatched-syntax '((string 582 . 607) (symbol 576 . 581) (punctuation 575 . 576))
+      :lexical-table 
+        '(("VEC_ALIGN" . ((symbol "PPCASM" 1432 . 1438) (semantic-list "(\" .align 4 \")" 1439 . 1453)))
+          ("tostring" (spp-arg-list ("s") 665 . 668) . ((punctuation "#" 669 . 670) (symbol "s" 670 . 671)))
+          ("stringify" (spp-arg-list ("s") 633 . 636) . ((symbol "tostring" 637 . 645) (semantic-list "(s)" 645 . 648)))
+          ("_COMPILER_API_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "MPC5744P.h"
+      :pointmax 1064319
+      :fsize 1064319
+      :lastmodtime '(22984 27740 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!ThinkPad!Desktop!MPC5744P_CAN_Bootloader!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -63,7 +63,150 @@
     (semanticdb-table "semanticdb-table"
       :file "load.h"
       :fsize 2542
-      :lastmodtime '(23037 56434 0 0)))
+      :lastmodtime '(23037 56434 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("derivative.h" include nil nil [83 106])
+            ("MPC574xP_SystemInit.h" include nil nil [146 178])
+            ("Sys_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [547 552]))                  
+                :type "void")
+                nil [533 2073])
+            ("GPIO_Aux_Function_Config" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2155 2160]))                  
+                :type "void")
+                nil [2125 3343])
+            ("Periphral_INTC_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3370 3375]))                  
+                :type "void")
+                nil [3345 3905])
+            ("PIT_Channel0_100ms_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3937 3942]))                  
+                :type "void")
+                nil [3908 4317])
+            ("PIT_Channel0_100ms_ISR" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4348 4353]))                  
+                :type "void")
+                nil [4320 4704]))          
+      :file "MPC574xP_SystemInit.c"
+      :pointmax 4705
+      :fsize 4842
+      :lastmodtime '(23037 55290 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("derivative.h" include nil nil [87 110])
+            ("project.h" include nil nil [150 170])
+            ("flexcan_init.h" include nil nil [171 196])
+            ("FlexCAN_api.h" include nil nil [197 221])
+            ("MPC574xP_SystemInit.h" include nil nil [222 254])
+            ("load.h" include nil nil [256 273])
+            ("APP_StartAddr" variable (:constant-flag t) nil [401 414])
+            ("xcptn_xmpl" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [559 564]))                  
+                :type "void")
+                nil [536 565])
+            ("Jump_Func" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [594 599]))                  
+                :type "void")
+                nil [575 600])
+            ("STATE" variable (:type ("uint8_t" type (:type "class") nil nil)) nil [687 701])
+            ("pSln" variable (:type ("uint8_t" type (:type "class") nil nil)) nil [740 753])
+            ("Sline" variable
+               (:dereference 1
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [797 816])
+            ("app_entry" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [914 919]))                  
+                :type "void")
+                nil [899 1070])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1081 1086]))                  
+                :type "int")
+                nil [1072 5497]))          
+      :file "main.c"
+      :pointmax 5499
+      :fsize 5498
+      :lastmodtime '(23037 56274 0 0)
+      :unmatched-syntax '((TYPEDEF 567 . 574))
+      :lexical-table 
+        '(("APP_StartAddr" . ((semantic-list "(*(uint32_t*)0x00FA0004)" 415 . 439)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("flexcan_init.h" include nil nil [1487 1512])
+            ("FlexCAN_api.h" include nil nil [1514 1538])
+            ("CAN_1_RximrArrayt" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX00,RX01,RX02,RX03,*/
+0xFFFFFFF0,0x00000000,0xFFFFFFF0,0x00000000,  /*RX04,RX05,RX06,RX07,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX08,RX09,RX10,RX11,*/
+0x00000000,0x00000000,0xFFFFFFFC,0xFFFFFFFB,  /*RX12,RX13,RX14,RX15,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX16,RX17,RX18,RX19,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX20,RX21,RX22,RX23,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX24,RX25,RX26,RX27,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX28,RX29,RX30,RX31,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX32,RX33,RX34,RX35,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX36,RX37,RX38,RX39,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX40,RX41,RX42,RX43,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX44,RX45,RX46,RX47,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX48,RX49,RX50,RX51,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX52,RX53,RX54,RX55,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX56,RX57,RX58,RX59,*/
+0x00000000,0x00000000,0x00000000,0x00000000,  /*RX60,RX61,RX62,RX63,*/
+}"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [1699 2885])
+            ("flexcan_init_fnc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2990 2995]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [2965 3134])
+            ("flexcan_0_deinit_fnc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3265 3270]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [3236 3502])
+            ("flexcan_1_deinit_fnc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3633 3638]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [3604 3870])
+            ("flexcan_0_init_fnc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3983 3988]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [3956 7753])
+            ("flexcan_1_init_fnc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7865 7870]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [7838 12331]))          
+      :file "flexcan_init.c"
+      :pointmax 12529
+      :fsize 12914
+      :lastmodtime '(23037 28540 0 0)
+      :unmatched-syntax nil))
   :file "!drive_c!Users!ThinkPad!Desktop!MPC5744P_CAN_Bootloader!src!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

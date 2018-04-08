@@ -27,6 +27,7 @@
                       monokai-theme
                       projectile
                       neotree
+                      helm-gtags
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
