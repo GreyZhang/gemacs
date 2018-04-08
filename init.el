@@ -30,6 +30,7 @@
                       helm-gtags
                       ggtags
                       function-args
+                      sr-speedbar
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
