@@ -61,9 +61,232 @@
       :fsize 449
       :lastmodtime '(23037 18582 0 0))
     (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("LOAD_H_" variable (:constant-flag t) nil [26 33])
+            ("ssd_c55.h" include nil nil [35 56])
+            ("ssd_c55_internal.h" include nil nil [57 87])
+            ("Flash_Driver_utils.h" include nil nil [89 121])
+            ("block_mpc574xP.h" include nil nil [122 150])
+            ("SPASS" variable (:constant-flag t) nil [161 166])
+            ("SERR" variable (:constant-flag t) nil [184 188])
+            ("SFileStart" variable (:constant-flag t) nil [207 217])
+            ("SFileEnd" variable (:constant-flag t) nil [230 238])
+            ("DownLoadID" variable (:constant-flag t) nil [254 264])
+            ("UpLoadID" variable (:constant-flag t) nil [279 287])
+            ("NO_ERR" variable (:constant-flag t) nil [305 311])
+            ("ERR_BUFFER_FULL" variable (:constant-flag t) nil [325 340])
+            ("CanMsg_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("ID" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [368 381])
+                          ("FrameType" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [385 403])
+                          ("FrameFormat" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [407 427])
+                          ("DtLen" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [431 446])
+                          ("data" variable
+                             (:dereference 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [450 467]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [348 479])
+            ("DOWN_LINK" variable (:constant-flag t) nil [588 597])
+            ("DOWN_LINE_END" variable (:constant-flag t) nil [624 637])
+            ("DOWN_FILE_END" variable (:constant-flag t) nil [662 675])
+            ("UP_READY" variable (:constant-flag t) nil [802 810])
+            ("UP_BUSY" variable (:constant-flag t) nil [838 845])
+            ("UP_PRGEND" variable (:constant-flag t) nil [874 883])
+            ("UP_ERR" variable (:constant-flag t) nil [910 916])
+            ("_STA_NOT_LINKED" variable (:constant-flag t) nil [1045 1060])
+            ("_STA_LINKED" variable (:constant-flag t) nil [1081 1092])
+            ("_STA_PRGEND" variable (:constant-flag t) nil [1117 1128])
+            ("SRecord_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("addr" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1246 1260])
+                          ("dtlen" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1262 1278])
+                          ("data" variable
+                             (:dereference 1
+                              :type ("uint16_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1280 1299]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1228 1312])
+            ("srcd" variable
+               (:typemodifiers ("extern")
+                :type ("SRecord_t" type (:type "class") nil nil))
+                nil [1314 1351])
+            ("LastLine_srcd" variable
+               (:typemodifiers ("extern")
+                :type ("SRecord_t" type (:type "class") nil nil))
+                nil [1314 1351])
+            ("SRecord_Copy" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("From" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1378 1394])
+                    ("To" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1395 1410]))                  
+                :type "void")
+                nil [1353 1411])
+            ("SRecord_Merge" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("Base" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1438 1454])
+                    ("Add" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1455 1471]))                  
+                :type "void")
+                nil [1412 1472])
+            ("SRcdCvt" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("line" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1496 1511])
+                    ("srcd" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1512 1528]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1473 1529])
+            ("SrcdAlign4W" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("srcd" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1554 1570]))                  
+                :type "void")
+                nil [1530 1571])
+            ("SrcdProg_RAM" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("srcd_t" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1597 1615]))                  
+                :type "void")
+                nil [1572 1616])
+            ("SrcdProg_PFlash" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("srcd" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1645 1661]))                  
+                :type "void")
+                nil [1617 1662])
+            ("StatusAck" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("sta" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1687 1699]))                  
+                :type "void")
+                nil [1665 1701])
+            ("RcvDtProc" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1724 1729]))                  
+                :type "void")
+                nil [1702 1730])
+            ("Prepare_Before_Jump" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1763 1768]))                  
+                :type "void")
+                nil [1731 1769])
+            ("app_entry" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1792 1797]))                  
+                :type "void")
+                nil [1770 1798])
+            ("Cpu_DelayMS" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("ms" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1824 1836]))                  
+                :type "void")
+                nil [1800 1837])
+            ("ErrorTrap" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("returnCode" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1861 1879]))                  
+                :type "void")
+                nil [1839 1880])
+            ("Flash_Init" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1945 1950]))                  
+                :type "void")
+                nil [1922 1951])
+            ("erase_flash_except_bootloader" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1994 1999]))                  
+                :type "void")
+                nil [1952 2000])
+            ("__SRAM_BASE_ADDR" variable (:constant-flag t) nil [2165 2181])
+            ("__SRAM_SIZE" variable (:constant-flag t) nil [2202 2213])
+            ("__LOCAL_DMEM_BASE_ADDR" variable (:constant-flag t) nil [2236 2258])
+            ("__LOCAL_DMEM_SIZE" variable (:constant-flag t) nil [2279 2296])
+            ("RAM_RANGE_CHECK" variable (:constant-flag t) nil [2318 2333]))          
       :file "load.h"
+      :pointmax 2449
       :fsize 2542
-      :lastmodtime '(23037 56434 0 0))
+      :lastmodtime '(23037 56434 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DownLoadID" . ((number "0x64" 266 . 270)))
+          ("DOWN_LINK" . ((number "0xFF" 610 . 614)))
+          ("DOWN_LINE_END" . ((number "0xFE" 646 . 650)))
+          ("UpLoadID" . ((number "0xC8" 291 . 295)))
+          ("_STA_NOT_LINKED" . ((number "0x00" 1067 . 1071)))
+          ("UP_READY" . ((number "0xC3" 824 . 828)))
+          ("_STA_LINKED" . ((number "0x01" 1103 . 1107)))
+          ("SERR" . ((number "1" 196 . 197)))
+          ("DOWN_FILE_END" . ((number "0xFD" 684 . 688)))
+          ("UP_PRGEND" . ((number "0xC1" 896 . 900)))
+          ("LOAD_H_")
+          ("NO_ERR" . ((number "0x00" 312 . 316)))
+          ("_STA_PRGEND" . ((number "0x02" 1139 . 1143)))
+          ("__SRAM_BASE_ADDR" . ((number "0x40000000" 2183 . 2193)))
+          ("UP_ERR" . ((number "0x00" 932 . 936)))
+          ("SFileStart" . ((number "2" 219 . 220)))
+          ("SFileEnd" . ((number "3" 242 . 243)))
+          ("ERR_BUFFER_FULL" . ((number "0x80" 341 . 345)))
+          ("UP_BUSY" . ((number "0xC2" 860 . 864)))
+          ("SPASS" . ((number "0" 173 . 174)))
+          ("__SRAM_SIZE" . ((number "0x00060000" 2217 . 2227)))
+          ("__LOCAL_DMEM_BASE_ADDR" . ((number "0x50800000" 2260 . 2270)))
+          ("RAM_RANGE_CHECK" (spp-arg-list ("addr") 2333 . 2339) . ((semantic-list "((addr>(__SRAM_BASE_ADDR-1))&&(addr<(__SRAM_BASE_ADDR + __SRAM_SIZE)) ? 1 :0)" 2344 . 2421)))
+          ("__LOCAL_DMEM_SIZE" . ((number "0x00010000" 2298 . 2308)))
+          )
+)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
@@ -206,7 +429,705 @@
       :pointmax 12529
       :fsize 12914
       :lastmodtime '(23037 28540 0 0)
-      :unmatched-syntax nil))
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("load.h" include nil nil [1 18]))          
+      :file "demo.c"
+      :pointmax 19
+      :fsize 19
+      :lastmodtime '(23242 8280 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("derivative.h" include nil nil [2 25])
+            ("load.h" include nil nil [70 87])
+            ("compiler_api.h" include nil nil [88 113])
+            ("FlexCAN_api.h" include nil nil [114 138])
+            ("flexcan_init.h" include nil nil [139 164])
+            ("srcd" variable (:type ("SRecord_t" type (:type "class") nil nil)) nil [166 181])
+            ("ssdConfig" variable
+               (:default-value "{
+    C55_REG_BASE,         /* C55 control register base */
+    MAIN_ARRAY_BASE,      /* base of main array */
+    { 0, 0, 0 },          /* blocks info of low address space */
+    { 0, 0, 0 },          /* blocks info of mid address space */
+    { 0, 0, 0 },          /* blocks info of high address space */
+    0,                    /* number of blocks in 256K address space */
+    UTEST_ARRAY_BASE,     /* base of UTEST array */
+    TRUE,                 /* interface flag indicate main or alternate interface */
+    C55_PROGRAMMABLE_SIZE,/* programmable size */
+    FALSE                 /* debug mode selection */
+}"
+                :type ("SSD_CONFIG" type (:type "class") nil nil))
+                nil [183 825])
+            ("dummyCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [827 853])
+            ("pgmCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [854 878])
+            ("bcCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [879 902])
+            ("pvCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [903 926])
+            ("csCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [927 950])
+            ("exPgmCtxData" variable (:type ("CONTEXT_DATA" type (:type "class") nil nil)) nil [951 977])
+            ("blkLockState" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [979 1001])
+            ("pflash_pfcr0" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1052 1116])
+            ("pflash_pfcr1" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1052 1116])
+            ("pflash_pfcr2" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1052 1116])
+            ("pflash_pfcr3" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1052 1116])
+            ("buffer" variable
+               (:dereference 1
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [1161 1212])
+            ("memRegionInfo" variable (:type ("MEM_REGION_INFO" type (:type "class") nil nil)) nil [1213 1243])
+            ("returnCode" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1245 1265])
+            ("demoResult" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1316 1337])
+            ("dest" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1339 1353])
+            ("size" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1394 1408])
+            ("source" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1445 1461])
+            ("failedAddress" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1519 1542])
+            ("failedData" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1586 1606])
+            ("failedSource" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1650 1672])
+            ("sum" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1725 1738])
+            ("skipFlag" variable (:type ("BOOL" type (:type "class") nil nil)) nil [1777 1791])
+            ("temp" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1792 1806])
+            ("lowBlockSelect" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1808 1832])
+            ("midBlockSelect" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1870 1894])
+            ("highBlockSelect" variable (:type ("uint32_t" type (:type "class") nil nil)) nil [1935 1960])
+            ("n256KBlockSelect" variable (:type ("N256K_BLOCK_SEL" type (:type "class") nil nil)) nil [1999 2032])
+            ("hex2value" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2095 2106]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [2070 2107])
+            ("SRecord_Copy" function
+               (:arguments 
+                  ( ("From" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2183 2199])
+                    ("To" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2200 2215]))                  
+                :type "void")
+                nil [2165 2396])
+            ("SRecord_Merge" function
+               (:arguments 
+                  ( ("Base" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2500 2516])
+                    ("Add" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2517 2533]))                  
+                :type "void")
+                nil [2481 2694])
+            ("SRcdCvt" function
+               (:arguments 
+                  ( ("line" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3132 3147])
+                    ("srcd_t" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3148 3166]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [3116 6120])
+            ("SrcdAlign4W" function
+               (:arguments 
+                  ( ("srcd_t" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6599 6617]))                  
+                :type "void")
+                nil [6582 8151])
+            ("hex2value" function
+               (:arguments 
+                  ( ("p" variable
+                       (:pointer 1
+                        :type ("uint8_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8501 8512]))                  
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [8483 8741])
+            ("RcvDtProc" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9008 9013]))                  
+                :type "void")
+                nil [8993 9375])
+            ("StatusAck" function
+               (:arguments 
+                  ( ("sta" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9621 9633]))                  
+                :type "void")
+                nil [9606 9912])
+            ("CleanRAM" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10159 10164]))                  
+                :type "void")
+                nil [10145 10493])
+            ("Prepare_Before_Jump" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10754 10759]))                  
+                :type "void")
+                nil [10729 10951])
+            ("SrcdProg_RAM" function
+               (:arguments 
+                  ( ("srcd_t" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11295 11313]))                  
+                :type "void")
+                nil [11277 11486])
+            ("SrcdProg_PFlash" function
+               (:arguments 
+                  ( ("srcd_t" variable
+                       (:pointer 1
+                        :type ("SRecord_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11839 11857]))                  
+                :type "void")
+                nil [11818 12393])
+            ("Flash_Init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [12799 12804]))                  
+                :type "void")
+                nil [12783 16563])
+            ("erase_flash_except_bootloader" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [16809 16814]))                  
+                :type "void")
+                nil [16774 18843])
+            ("Cpu_DelayMS" function
+               (:arguments 
+                  ( ("ms" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19086 19098]))                  
+                :type "void")
+                nil [19069 19193]))          
+      :file "load.c"
+      :pointmax 20288
+      :fsize 20928
+      :lastmodtime '(23037 56458 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__DEMO_UTILS__" variable (:constant-flag t) nil [1364 1378])
+            ("BUFFER_SIZE_BYTE" variable (:constant-flag t) nil [1406 1422])
+            ("ssdConfig" variable
+               (:typemodifiers ("extern")
+                :type ("SSD_CONFIG" type (:type "class") nil nil))
+                nil [1617 1645])
+            ("dummyCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1646 1679])
+            ("pgmCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1680 1711])
+            ("bcCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1712 1742])
+            ("pvCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1743 1773])
+            ("csCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1774 1804])
+            ("exPgmCtxData" variable
+               (:typemodifiers ("extern")
+                :type ("CONTEXT_DATA" type (:type "class") nil nil))
+                nil [1805 1838])
+            ("buffer" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [1840 1896])
+            ("App_FlashErase" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2117 2140])
+                    ("eraseOption" variable (:type ("UINT8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2165 2183])
+                    ("lowBlockSelect" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2208 2230])
+                    ("midBlockSelect" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2255 2277])
+                    ("highBlockSelect" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2302 2325])
+                    ("n256KBlockSelect" variable (:type ("N256K_BLOCK_SEL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2350 2383]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [2087 2384])
+            ("App_FlashProgram" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2417 2440])
+                    ("factoryPgmFlag" variable (:type ("BOOL" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2463 2483])
+                    ("dest" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2506 2518])
+                    ("size" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2541 2553])
+                    ("source" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2576 2590])
+                    ("pCtxData" variable (:type ("PCONTEXT_DATA" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2613 2637]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [2386 2638])
+            ("App_BlankCheck" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2670 2693])
+                    ("dest" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2714 2726])
+                    ("size" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2747 2759])
+                    ("pFailedAddress" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2780 2803])
+                    ("pFailedData" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2824 2844])
+                    ("pCtxData" variable (:type ("PCONTEXT_DATA" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2865 2889]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [2640 2890])
+            ("App_CheckSum" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2920 2943])
+                    ("dest" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2962 2974])
+                    ("size" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2993 3005])
+                    ("pSum" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3024 3037])
+                    ("pCtxData" variable (:type ("PCONTEXT_DATA" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3056 3080]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [2892 3081])
+            ("App_ProgramVerify" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3116 3139])
+                    ("dest" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3163 3175])
+                    ("size" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3199 3211])
+                    ("source" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3235 3249])
+                    ("pFailedAddress" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3273 3296])
+                    ("pFailedData" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3320 3340])
+                    ("pFailedSource" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3364 3386])
+                    ("pCtxData" variable (:type ("PCONTEXT_DATA" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3410 3434]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3083 3435])
+            ("WaitOperationFinish" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3471 3494])
+                    ("modeOp" variable (:type ("UINT8" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3522 3535])
+                    ("pCtxData" variable (:type ("PCONTEXT_DATA" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3563 3586]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3437 3587])
+            ("User_App" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3609 3614]))                  
+                :type "void")
+                nil [3588 3615])
+            ("TurnOnMCR_EER" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3643 3666]))                  
+                :type ("BOOL" type (:type "class") nil nil))
+                nil [3617 3667])
+            ("TurnOnMCR_RWE" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3694 3717]))                  
+                :type ("BOOL" type (:type "class") nil nil))
+                nil [3668 3718])
+            ("EER_exception_handler" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("return_address" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3755 3777])
+                    ("instruction" variable (:type ("UINT16" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3778 3797]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3719 3798])
+            ("SyncProgram" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pSSDConfig" variable (:type ("PSSD_CONFIG" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3826 3849])
+                    ("dest" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3850 3862])
+                    ("size" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3863 3875])
+                    ("source" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3876 3890]))                  
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3799 3891])
+            ("EnableSoftwareWatchdog" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3928 3933]))                  
+                :type "void")
+                nil [3892 3934])
+            ("DisableSoftwareWatchdog" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3972 3977]))                  
+                :type "void")
+                nil [3935 3978])
+            ("DisableFlashControllerCache" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("flashConfigReg" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4019 4041])
+                    ("disableVal" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4082 4100])
+                    ("origin_pflash_pfcr" variable
+                       (:pointer 1
+                        :type ("UINT32" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4141 4168]))                  
+                :type "void")
+                nil [3979 4169])
+            ("RestoreFlashControllerCache" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("flashConfigReg" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4210 4232])
+                    ("pflash_pfcr" variable (:type ("UINT32" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4273 4292]))                  
+                :type "void")
+                nil [4170 4293]))          
+      :file "Flash_Driver_utils.h"
+      :pointmax 4322
+      :fsize 4418
+      :lastmodtime '(23036 9694 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BUFFER_SIZE_BYTE" . ((number "0x1000" 1438 . 1444)))
+          ("__DEMO_UTILS__")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__BLOCK_MPC57XX__" variable (:constant-flag t) nil [1368 1385])
+            ("Flash_Driver_common.h" include nil nil [1388 1420])
+            ("ssd_c55.h" include nil nil [1421 1441])
+            ("c55flash_mpc57xx.h" include nil nil [1443 1472])
+            ("UNLOCK_LOW_BLOCKS" variable (:constant-flag t) nil [1500 1517])
+            ("UNLOCK_MID_BLOCKS" variable (:constant-flag t) nil [1619 1636])
+            ("UNLOCK_HIGH_BLOCKS" variable (:constant-flag t) nil [1670 1688])
+            ("UNLOCK_SECOND256_BLOCKS" variable (:constant-flag t) nil [1969 1992])
+            ("ALL_LOW_BLOCK_SEL" variable (:constant-flag t) nil [2140 2157])
+            ("ALL_MID_BLOCK_SEL" variable (:constant-flag t) nil [2200 2217])
+            ("ALL_HIGH_BLOCK_SEL" variable (:constant-flag t) nil [2260 2278])
+            ("ALL_FIRST256_BLOCK_SEL" variable (:constant-flag t) nil [2321 2343])
+            ("ALL_SECOND256_BLOCK_SEL" variable (:constant-flag t) nil [2386 2409])
+            ("EER_ADDR" variable (:constant-flag t) nil [2801 2809])
+            ("RWE_ADDR" variable (:constant-flag t) nil [2848 2856])
+            ("RWE_LOW_SEL" variable (:constant-flag t) nil [2895 2906])
+            ("RWE_MID_SEL" variable (:constant-flag t) nil [2935 2946])
+            ("RWE_HIGH_SEL" variable (:constant-flag t) nil [2975 2987])
+            ("RWE_FIRST256_SEL" variable (:constant-flag t) nil [3015 3031])
+            ("RWE_SECOND256_SEL" variable (:constant-flag t) nil [3055 3072])
+            ("BLOCK_START_ADDRS" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3089 3142])
+            ("BLOCK_END_ADDRS" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3143 3194])
+            ("SKIP_BLOCK_IDX" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type ("UINT32" type (:type "class") nil nil))
+                nil [3195 3244])
+            ("InitMemRegionInfo" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("pMemRegionInfo" variable (:type ("PMEM_REGION_INFO" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3275 3307]))                  
+                :type "void")
+                nil [3245 3308]))          
+      :file "block_mpc574xP.h"
+      :pointmax 3350
+      :fsize 3422
+      :lastmodtime '(23037 18776 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EER_ADDR" . ((number "0x00F9C000" 2829 . 2839)))
+          ("RWE_MID_SEL" . ((number "0x0" 2963 . 2966)))
+          ("RWE_FIRST256_SEL" . ((number "0x0" 3043 . 3046)))
+          ("UNLOCK_HIGH_BLOCKS" . ((number "0x00000000" 1702 . 1712)))
+          ("ALL_LOW_BLOCK_SEL" . ((semantic-list "(~UNLOCK_LOW_BLOCKS)" 2171 . 2191)))
+          ("ALL_FIRST256_BLOCK_SEL" . ((semantic-list "(~UNLOCK_FIRST256_BLOCKS)" 2352 . 2377)))
+          ("__BLOCK_MPC57XX__")
+          ("RWE_ADDR" . ((number "0x00F98000" 2876 . 2886)))
+          ("UNLOCK_MID_BLOCKS" . ((number "0x00000000" 1651 . 1661)))
+          ("UNLOCK_SECOND256_BLOCKS" . ((number "0x00000000" 2001 . 2011)))
+          ("RWE_LOW_SEL" . ((number "0x4" 2923 . 2926)))
+          ("RWE_HIGH_SEL" . ((number "0x0" 3003 . 3006)))
+          ("ALL_HIGH_BLOCK_SEL" . ((semantic-list "(~UNLOCK_HIGH_BLOCKS)" 2291 . 2312)))
+          ("ALL_MID_BLOCK_SEL" . ((semantic-list "(~UNLOCK_MID_BLOCKS)" 2231 . 2251)))
+          ("ALL_SECOND256_BLOCK_SEL" . ((semantic-list "(~UNLOCK_SECOND256_BLOCKS)" 2417 . 2443)))
+          ("RWE_SECOND256_SEL" . ((number "0x0" 3083 . 3086)))
+          ("UNLOCK_LOW_BLOCKS" . ((number "0x0000000C" 1532 . 1542)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__DEMO_COMMON__" variable (:constant-flag t) nil [1366 1381])
+            ("DEMO_PASS" variable (:constant-flag t) nil [1394 1403])
+            ("DEMO_FAIL" variable (:constant-flag t) nil [1429 1438])
+            ("WRITE32" variable (:constant-flag t) nil [1466 1473])
+            ("READ32" variable (:constant-flag t) nil [1535 1541])
+            ("SET32" variable (:constant-flag t) nil [1604 1609])
+            ("CLEAR32" variable (:constant-flag t) nil [1674 1681])
+            ("READ64" variable (:constant-flag t) nil [1746 1752])
+            ("READ8" variable (:constant-flag t) nil [1829 1834])
+            ("FlashInit_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [1888 1929])
+            ("FlashErase_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [1930 1972])
+            ("FlashEraseAlternate_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [1973 2024])
+            ("BlankCheck_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2025 2067])
+            ("FlashProgram_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2068 2112])
+            ("ProgramVerify_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2113 2158])
+            ("FlashCheckStatus_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2159 2207])
+            ("GetLock_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2208 2247])
+            ("SetLock_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2248 2287])
+            ("CheckSum_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2288 2328])
+            ("FlashSuspend_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2329 2373])
+            ("FlashResume_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2374 2417])
+            ("UserMarginReadCheck_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2418 2469])
+            ("FlashArrayIntegrityCheck_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2470 2526])
+            ("FlashArrayIntegrityResume_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2527 2584])
+            ("FlashArrayIntegritySuspend_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2585 2643])
+            ("OverPgmProtGetStatus_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2644 2696])
+            ("FlashAbort_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2697 2739])
+            ("FlashExpressProgram_C" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :constant-flag t
+                :type "unsigned long")
+                nil [2740 2791])
+            ("pFlashInit" variable (:constant-flag t) nil [2800 2810])
+            ("pFlashErase" variable (:constant-flag t) nil [2862 2873])
+            ("pFlashEraseAlternate" variable (:constant-flag t) nil [2926 2946])
+            ("pBlankCheck" variable (:constant-flag t) nil [3008 3019])
+            ("pFlashProgram" variable (:constant-flag t) nil [3072 3085])
+            ("pFlashCheckStatus" variable (:constant-flag t) nil [3140 3157])
+            ("pProgramVerify" variable (:constant-flag t) nil [3216 3230])
+            ("pGetLock" variable (:constant-flag t) nil [3287 3295])
+            ("pSetLock" variable (:constant-flag t) nil [3345 3353])
+            ("pCheckSum" variable (:constant-flag t) nil [3403 3412])
+            ("pFlashSuspend" variable (:constant-flag t) nil [3463 3476])
+            ("pFlashResume" variable (:constant-flag t) nil [3531 3543])
+            ("pUserMarginReadCheck" variable (:constant-flag t) nil [3597 3617])
+            ("pFlashArrayIntegrityCheck" variable (:constant-flag t) nil [3679 3704])
+            ("pFlashArrayIntegrityResume" variable (:constant-flag t) nil [3771 3797])
+            ("pFlashArrayIntegritySuspend" variable (:constant-flag t) nil [3865 3892])
+            ("pOverPgmProtGetStatus" variable (:constant-flag t) nil [3961 3982])
+            ("pFlashAbort" variable (:constant-flag t) nil [4045 4056])
+            ("pFlashExpressProgram" variable (:constant-flag t) nil [4109 4129]))          
+      :file "Flash_Driver_common.h"
+      :pointmax 4222
+      :fsize 4296
+      :lastmodtime '(23036 8714 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("pFlashInit" . ((semantic-list "((PFLASHINIT)FlashInit_C)" 2828 . 2853)))
+          ("CLEAR32" (spp-arg-list ("address" "value") 1681 . 1697) . ((semantic-list "(*(VUINT32*)(address) &= ~(value))" 1702 . 1736)))
+          ("pBlankCheck" . ((semantic-list "((PBLANKCHECK)BlankCheck_C)" 3036 . 3063)))
+          ("WRITE32" (spp-arg-list ("address" "value") 1473 . 1489) . ((semantic-list "(*(VUINT32*)(address) = (value))" 1494 . 1526)))
+          ("pUserMarginReadCheck" . ((semantic-list "((PUSERMARGINREADCHECK)UserMarginReadCheck_C)" 3625 . 3670)))
+          ("__DEMO_COMMON__")
+          ("DEMO_PASS" . ((number "0x00000000" 1410 . 1420)))
+          ("SET32" (spp-arg-list ("address" "value") 1609 . 1625) . ((semantic-list "(*(VUINT32*)(address) |= (value))" 1632 . 1665)))
+          ("READ64" (spp-arg-list ("address") 1752 . 1761) . ((semantic-list "((long long)(*(volatile long long*)(address)))" 1774 . 1820)))
+          ("READ8" (spp-arg-list ("address") 1834 . 1843) . ((semantic-list "((UINT8)(*(VUINT8*)(address)))" 1856 . 1886)))
+          ("pFlashArrayIntegrityCheck" . ((semantic-list "((PFLASHARRAYINTEGRITYCHECK)FlashArrayIntegrityCheck_C)" 3707 . 3762)))
+          ("pProgramVerify" . ((semantic-list "((PPROGRAMVERIFY) ProgramVerify_C)" 3244 . 3278)))
+          ("READ32" (spp-arg-list ("address") 1541 . 1550) . ((semantic-list "((UINT32)(*(VUINT32*)(address)))" 1563 . 1595)))
+          ("pFlashErase" . ((semantic-list "((PFLASHERASE)FlashErase_C)" 2890 . 2917)))
+          ("pFlashProgram" . ((semantic-list "((PFLASHPROGRAM)FlashProgram_C)" 3100 . 3131)))
+          ("pOverPgmProtGetStatus" . ((semantic-list "((POVERPGMPROTGETSTATUS)OverPgmProtGetStatus_C)" 3989 . 4036)))
+          ("pFlashExpressProgram" . ((semantic-list "((PFLASHEXPRESSPROGRAM)FlashExpressProgram_C)" 4137 . 4182)))
+          ("pFlashResume" . ((semantic-list "((PFLASHRESUME)FlashResume_C)" 3559 . 3588)))
+          ("DEMO_FAIL" . ((number "0xFFFFFFFF" 1445 . 1455)))
+          ("pFlashEraseAlternate" . ((semantic-list "((PFLASHERASEALTERNATE)FlashEraseAlternate_C)" 2954 . 2999)))
+          ("pFlashSuspend" . ((semantic-list "((PFLASHSUSPEND)FlashSuspend_C)" 3491 . 3522)))
+          ("pFlashArrayIntegritySuspend" . ((semantic-list "((PFLASHARRAYINTEGRITYSUSPEND)FlashArrayIntegritySuspend_C)" 3893 . 3952)))
+          ("pFlashCheckStatus" . ((semantic-list "((PFLASHCHECKSTATUS)FlashCheckStatus_C)" 3168 . 3207)))
+          ("pSetLock" . ((semantic-list "((PSETLOCK)SetLock_C)" 3373 . 3394)))
+          ("pGetLock" . ((semantic-list "((PGETLOCK)GetLock_C)" 3315 . 3336)))
+          ("pCheckSum" . ((semantic-list "((PCHECKSUM)CheckSum_C)" 3431 . 3454)))
+          ("pFlashAbort" . ((semantic-list "((PFLASHABORT)FlashAbort_C)" 4073 . 4100)))
+          ("pFlashArrayIntegrityResume" . ((semantic-list "((PFLASHARRAYINTEGRITYRESUME)FlashArrayIntegrityResume_C)" 3799 . 3856)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_C55FLASH_MPC57XX_" variable (:constant-flag t) nil [1369 1387])
+            ("C55_REG_BASE" variable (:constant-flag t) nil [1582 1594])
+            ("MAIN_ARRAY_BASE" variable (:constant-flag t) nil [1633 1648])
+            ("UTEST_ARRAY_BASE" variable (:constant-flag t) nil [1684 1700])
+            ("UTEST_ARRAY_SIZE" variable (:constant-flag t) nil [1735 1751])
+            ("C55_PROGRAMMABLE_SIZE" variable (:constant-flag t) nil [1787 1808])
+            ("NUM_LOW_BLOCK" variable (:constant-flag t) nil [1875 1888])
+            ("NUM_MID_BLOCK" variable (:constant-flag t) nil [1924 1937])
+            ("NUM_HIGH_BLOCK" variable (:constant-flag t) nil [1973 1987])
+            ("NUM_256K_BLOCK_FIRST" variable (:constant-flag t) nil [2022 2042])
+            ("NUM_256K_BLOCK_SECOND" variable (:constant-flag t) nil [2071 2092])
+            ("NUM_BLOCK_ALL" variable (:constant-flag t) nil [2120 2133])
+            ("SWT_REG" variable (:constant-flag t) nil [2291 2298])
+            ("SWT_CR_OFFSET" variable (:constant-flag t) nil [2335 2348])
+            ("SWT_SR_OFFSET" variable (:constant-flag t) nil [2377 2390])
+            ("DCACHE_AVAILABLE" variable (:constant-flag t) nil [2469 2485])
+            ("FLASH_FMC" variable (:constant-flag t) nil [2545 2554])
+            ("FLASH_PFCR1" variable (:constant-flag t) nil [2655 2666])
+            ("FLASH_PFCR2" variable (:constant-flag t) nil [2729 2740])
+            ("FLASH_PFCR3" variable (:constant-flag t) nil [2803 2814])
+            ("FLASH_FMC_BFEN" variable (:constant-flag t) nil [2877 2891]))          
+      :file "c55flash_mpc57xx.h"
+      :pointmax 2979
+      :fsize 3037
+      :lastmodtime '(23036 8674 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("NUM_256K_BLOCK_SECOND" . ((number "0" 2110 . 2111)))
+          ("SWT_CR_OFFSET" . ((symbol "0x00000000UL" 2356 . 2368)))
+          ("UTEST_ARRAY_BASE" . ((number "0x00400000" 1716 . 1726)))
+          ("NUM_MID_BLOCK" . ((number "2" 1963 . 1964)))
+          ("SWT_SR_OFFSET" . ((symbol "0x00000010UL" 2398 . 2410)))
+          ("_C55FLASH_MPC57XX_")
+          ("NUM_LOW_BLOCK" . ((number "4" 1914 . 1915)))
+          ("C55_REG_BASE" . ((number "0xFFFE0000" 1614 . 1624)))
+          ("FLASH_FMC_BFEN" . ((number "0x00000001" 2899 . 2909)))
+          ("FLASH_PFCR1" . ((number "0" 2677 . 2678)))
+          ("SWT_REG" . ((symbol "0xFC050000UL" 2314 . 2326)))
+          ("FLASH_PFCR2" . ((number "0" 2751 . 2752)))
+          ("UTEST_ARRAY_SIZE" . ((number "0x00004000" 1767 . 1777)))
+          ("NUM_HIGH_BLOCK" . ((number "6" 2012 . 2013)))
+          ("FLASH_PFCR3" . ((number "8" 2825 . 2826)))
+          ("MAIN_ARRAY_BASE" . ((number "0x00800000" 1665 . 1675)))
+          ("NUM_BLOCK_ALL" . ((semantic-list "(NUM_LOW_BLOCK + NUM_MID_BLOCK + NUM_HIGH_BLOCK + NUM_256K_BLOCK_FIRST + NUM_256K_BLOCK_SECOND)" 2152 . 2247)))
+          ("C55_PROGRAMMABLE_SIZE" . ((number "0x80" 1819 . 1823)))
+          ("DCACHE_AVAILABLE" . ((number "1" 2500 . 2501)))
+          ("FLASH_FMC" . ((number "0xFC030000" 2573 . 2583)))
+          ("NUM_256K_BLOCK_FIRST" . ((number "8" 2061 . 2062)))
+          )
+))
   :file "!drive_c!Users!ThinkPad!Desktop!MPC5744P_CAN_Bootloader!src!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
