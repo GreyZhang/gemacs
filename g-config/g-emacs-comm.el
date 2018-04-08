@@ -35,6 +35,7 @@
                                   global-semantic-tag-folding-mode)) 
 (semantic-mode 1)
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
+(fa-config-default)
 
 
 

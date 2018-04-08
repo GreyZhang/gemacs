@@ -29,6 +29,7 @@
                       neotree
                       helm-gtags
                       ggtags
+                      function-args
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
