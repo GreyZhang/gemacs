@@ -491,12 +491,12 @@
                (:arguments 
                   ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [118 123]))                  
                 :type "void")
-                nil [108 161]))          
+                nil [108 194]))          
       :file "demo.c"
-      :pointmax 162
-      :fsize 235
-      :lastmodtime '(23242 12656 0 0)
-      :unmatched-syntax '((semantic-list 32 . 60) (symbol 27 . 31) (STRUCT 20 . 26) (semantic-list 32 . 60) (symbol 27 . 31) (STRUCT 20 . 26)))
+      :pointmax 195
+      :fsize 216
+      :lastmodtime '(23242 15813 0 0)
+      :unmatched-syntax '((semantic-list 32 . 60) (symbol 27 . 31) (STRUCT 20 . 26)))
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 

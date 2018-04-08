@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ sr-speedbar-toggle
  eval-buffer
  customize-themes
  neotree-toggle
  neotree-show
  neotree-dir
  recentf-open-files
- dired
 )
 
 ;; ----- smex-data -----
@@ -30,4 +30,5 @@
  (neotree-toggle . 2)
  (neotree-change-root . 10)
  (hide-leaves . 1)
+ (sr-speedbar-toggle . 5)
 )

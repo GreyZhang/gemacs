@@ -4,9 +4,8 @@
 	c-indent-level 4
 	c-default-style "bsd"))
 (add-hook 'c-mode-common-hook 'my-c-mode-hook)
-(scroll-bar-mode 0)
-(add-hook 'c-mode-common-hook
-          (lambda ()
-            (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
-              (ggtags-mode 1))))
+;; (add-hook 'c-mode-common-hook
+;;           (lambda ()
+;;             (when (derived-mode-p 'c-mode 'c++-mode 'java-mode)
+;;               (ggtags-mode 1))))
 (provide 'g-c-common-mode)
