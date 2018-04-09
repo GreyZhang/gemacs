@@ -1,0 +1,10 @@
+# gemacs
+Grey's emacs configuraytion
+
+Description:
+A set of emacs configurations for myself.
+
+How to Install
+mv ~/.emacs.d ~/.emacs.d.bak
+git clone https://github.com/GreyZhang/gemacs ~/.emacs.d
+
