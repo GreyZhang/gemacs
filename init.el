@@ -35,6 +35,7 @@
                       popwin
                       powerline
                       powerline-evil
+                      nyan-mode
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

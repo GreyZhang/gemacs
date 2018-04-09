@@ -19,6 +19,7 @@
 (require 'g-powerline)
 (require 'g-window-numbering)
 (require 'g-powerline-evil)
+(require 'g-nyan-mode)
 
 
 
