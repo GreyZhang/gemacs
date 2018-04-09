@@ -18,6 +18,7 @@
 (require 'g-indent-region)
 (require 'g-powerline)
 (require 'g-window-numbering)
+(require 'g-powerline-evil)
 
 
 
