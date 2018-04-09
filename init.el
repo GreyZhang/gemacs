@@ -33,6 +33,8 @@
                       sr-speedbar
                       smooth-scrolling
                       popwin
+                      powerline
+                      powerline-evil
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -77,7 +79,7 @@
  '(cua-read-only-cursor-color "#859900")
  '(custom-safe-themes
    (quote
-    ("d737a2131d5ac01c0b2b944e0d2cb0be1c76496bb4ed61be51ff0e5457468974" "bf3ec301ea82ab546efb39c2fdd4412d1188c7382ff3bbadd74a8ecae4121678" "af7896a2ea5a2d18a190d8876458bababa28732f7c3d85f51c2ac830a61ec412" "f0c98535db38af17e81e491a77251e198241346306a90c25eb982b57e687d7c0" default)))
+    ("aba62a62bcecd0729947ec61322eb05f86741277e66094bca7e63c5b18361742" "d737a2131d5ac01c0b2b944e0d2cb0be1c76496bb4ed61be51ff0e5457468974" "bf3ec301ea82ab546efb39c2fdd4412d1188c7382ff3bbadd74a8ecae4121678" "af7896a2ea5a2d18a190d8876458bababa28732f7c3d85f51c2ac830a61ec412" "f0c98535db38af17e81e491a77251e198241346306a90c25eb982b57e687d7c0" default)))
  '(fci-rule-color "#3C3D37")
  '(helm-M-x-fuzzy-match t)
  '(helm-buffers-fuzzy-matching t)

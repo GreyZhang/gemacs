@@ -6,7 +6,6 @@
 (require 'g-evil-leader)
 (require 'g-org)
 (require 'g-dired)
-(require 'g-window-numbering)
 (require 'g-theme)
 (require 'g-hungry-delete)
 (require 'g-c-common-mode)
@@ -17,6 +16,9 @@
 (require 'g-smooth-scrolling)
 (require 'g-popwin)
 (require 'g-indent-region)
+(require 'g-powerline)
+(require 'g-window-numbering)
+
 
 
 (provide 'g-config)
