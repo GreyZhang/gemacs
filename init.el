@@ -32,6 +32,7 @@
                       function-args
                       sr-speedbar
                       smooth-scrolling
+                      popwin
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

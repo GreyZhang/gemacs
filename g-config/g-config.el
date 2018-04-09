@@ -15,6 +15,7 @@
 ;; (require 'g-ggtags)
 (require 'g-function-args)
 (require 'g-smooth-scrolling)
+(require 'g-popwin)
 
 
 (provide 'g-config)
