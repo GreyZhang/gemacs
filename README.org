@@ -10,13 +10,13 @@
 - Project managemnt for c/c++.
 - Files tree display
 
-
-** 简介
-- 个人自用的一个EMACS配置。
-
 ** How to Install
 - mv ~/.emacs.d ~/.emacs.d.bak
 - git clone https://github.com/GreyZhang/gemacs ~/.emacs.d
+  
+
+** 简介
+- 个人自用的一个EMACS配置。
   
 ** 如何安装
 *** 说明
