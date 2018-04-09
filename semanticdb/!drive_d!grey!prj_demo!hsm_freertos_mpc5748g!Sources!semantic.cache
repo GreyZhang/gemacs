@@ -90,8 +90,8 @@
                 nil [4298 5912]))          
       :file "main.c"
       :pointmax 6267
-      :fsize 6468
-      :lastmodtime '(23015 38480 0 0)
+      :fsize 7119
+      :lastmodtime '(23242 57764 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("TASK0_DELAY" . ((semantic-list "((TickType_t)100 / portTICK_PERIOD_MS)" 1248 . 1286)))
@@ -102,7 +102,31 @@
           ("NOF_QUEUES" . ((number "1" 1471 . 1472)))
           ("MESSAGE_LENGTH" . ((number "16" 1497 . 1499)))
           )
-))
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Demo" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [10 15]))                  
+                :type "int")
+                nil [1 73])
+            ("Sum" function
+               (:arguments 
+                  ( ("a" variable (:type "int") (reparse-symbol arg-sub-list) [83 89])
+                    ("b" variable (:type "int") (reparse-symbol arg-sub-list) [89 95]))                  
+                :type "int")
+                nil [75 117])
+            ("Test" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [128 133]))                  
+                :type "int")
+                nil [119 207]))          
+      :file "demo.c"
+      :pointmax 208
+      :fsize 231
+      :lastmodtime '(23242 63697 0 0)
+      :unmatched-syntax nil))
   :file "!drive_d!grey!prj_demo!hsm_freertos_mpc5748g!Sources!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

@@ -66,11 +66,12 @@
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
  '(company-backends
    (quote
-    (company-bbdb company-nxml company-css company-eclim company-semantic company-xcode company-cmake company-capf company-files
+    (company-bbdb company-nxml company-css company-eclim company-xcode company-cmake company-capf company-files
                   (company-dabbrev-code company-gtags company-etags company-keywords)
                   company-oddmuse company-dabbrev)))
  '(company-idle-delay 0)
  '(company-minimum-prefix-length 1)
+ '(company-tooltip-idle-delay 0)
  '(compilation-message-face (quote default))
  '(cua-global-mark-cursor-color "#2aa198")
  '(cua-mode t nil (cua-base))
