@@ -16,6 +16,7 @@
 (require 'g-function-args)
 (require 'g-smooth-scrolling)
 (require 'g-popwin)
+(require 'g-indent-region)
 
 
 (provide 'g-config)
