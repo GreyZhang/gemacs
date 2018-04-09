@@ -2,11 +2,65 @@
 * Grey's emacs configuraytion
 
 ** Description:
-A set of emacs configurations for myself.
+- A set of emacs configurations for myself.
+  
+** Some features
+- Auto completion.
+- Servral themes.
+- Project managemnt for c/c++.
+- Files tree display
+
+
+** 简介
+- 个人自用的一个EMACS配置。
 
 ** How to Install
 - mv ~/.emacs.d ~/.emacs.d.bak
 - git clone https://github.com/GreyZhang/gemacs ~/.emacs.d
   
+** 如何安装
+*** 说明
+- 工作原因，主要使用Windows，目前的测试也基本上都集中在Windows上。后期，针对其他平台，尤其是Mac还会进行测试。
+- 对EMACS的版本有一定的要求，需要使用24.4以上版本，尽量使用25.X。我个人使用的是25.3。
+*** 安装方法
+- 备份一下原来的emacs.d配置；
+- 从GitHub同步我的配置。值得一说的是，这个配置是我自己使用过程中的文件的全备份，elisp文件也都进行了相应的编译。
+- 同步完成后，直接重启Emacs即可使用。
 
-
+** 功能介绍
+*** 功能配置目标来源
+- 我之前使用过的编辑器主要有VIM、Source Insight、Sublime Text（简单试用）、VS Code、NotePad++、Gedit等。这个Emacs功能的定制很多功能也是参考了这些编辑器。
+*** 目前的主要功能特性
+**** 基本功能配置
+- 显示行号
+- 启动全屏
+- 高亮当前行
+- 基于projectile的工程管理
+- Windows下的流畅度增强
+**** 代码编辑
+- 基于evil的Vim编辑模式
+- evil-leader
+- 括号自动匹配以及高亮
+- 代码段折叠功能
+- 对已有代码进行自动段落排版功能
+- 插件自动安装以及管理
+**** org-mode
+- 基于org-pomodoro的番茄工作法
+**** project管理
+- 变量、函数、宏等定义在工程中的跳转
+- 工程中搜索（可以分析elf等文件）
+- 使用neotree实现的目录树
+- 使用sr-speedbar实现的语义目录树
+- 自动补全功能
+- 函数原型提示功能
+**** 外观美化
+- 几种常见主题
+- 美化modeline
+**** 功能增强
+- 基于helm的文件以及命令输入，支持模糊搜索
+- 基于smex的快速命令增强输入
+- 窗口快速切换跳转
+**** 操作系统
+**** 文件管理功能
+- 模仿spacemacs的dired模式
+- powershell以及wav的增强支持功能
