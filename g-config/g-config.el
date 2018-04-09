@@ -14,6 +14,7 @@
 (require 'g-neotree)
 ;; (require 'g-ggtags)
 (require 'g-function-args)
+(require 'g-smooth-scrolling)
 
 
 (provide 'g-config)

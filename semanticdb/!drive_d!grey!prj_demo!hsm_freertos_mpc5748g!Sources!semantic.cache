@@ -1,0 +1,108 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("Cpu.h" include nil nil [897 913])
+            ("clockMan1.h" include nil nil [914 936])
+            ("FreeRTOS.h" include nil nil [937 958])
+            ("osif1.h" include nil nil [959 977])
+            ("hsm1.h" include nil nil [978 995])
+            ("exit_code" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [997 1024])
+            ("task.h" include nil nil [1111 1128])
+            ("queue.h" include nil nil [1129 1147])
+            ("hsm_driver.h" include nil nil [1148 1171])
+            ("TASK0_DELAY" variable (:constant-flag t) nil [1231 1242])
+            ("TASK0_PRIORITY" variable (:constant-flag t) nil [1295 1309])
+            ("TASK1_DELAY" variable (:constant-flag t) nil [1343 1354])
+            ("TASK1_PRIORITY" variable (:constant-flag t) nil [1407 1421])
+            ("NOF_QUEUES" variable (:constant-flag t) nil [1458 1468])
+            ("MESSAGE_LENGTH" variable (:constant-flag t) nil [1481 1495])
+            ("TIMEOUT_ENCRYPTION" variable (:constant-flag t) nil [1509 1527])
+            ("EncryptionType_e" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("ENCRYPT_NONE" variable
+                             (:constant-flag t
+                              :default-value (1580 1581)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1565 1581])
+                          ("ENCRYPT_ECB" variable
+                             (:constant-flag t
+                              :default-value (1599 1600)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1584 1600])
+                          ("ENCRYPT_CBC" variable
+                             (:constant-flag t
+                              :default-value (1618 1619)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [1603 1619]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [1550 1638])
+            ("Data_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("ucInitVector" variable
+                             (:dereference 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1675 1712])
+                          ("ucEncMsg" variable
+                             (:dereference 1
+                              :type ("uint8_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1714 1747]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1658 1756])
+            ("g_tQueueHandle" variable
+               (:typemodifiers ("static")
+                :type ("QueueHandle_t" type (:type "class") nil nil))
+                nil [1782 1818])
+            ("vTASK0" function
+               (:arguments 
+                  ( ("pvParam" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1849 1863]))                  
+                :type "void")
+                nil [1837 3221])
+            ("vTASK1" function
+               (:arguments 
+                  ( ("pvParam" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3235 3249]))                  
+                :type "void")
+                nil [3223 4143])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4307 4312]))                  
+                :type "int")
+                nil [4298 5912]))          
+      :file "main.c"
+      :pointmax 6267
+      :fsize 6468
+      :lastmodtime '(23015 38480 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("TASK0_DELAY" . ((semantic-list "((TickType_t)100 / portTICK_PERIOD_MS)" 1248 . 1286)))
+          ("TASK1_DELAY" . ((semantic-list "((TickType_t)110 / portTICK_PERIOD_MS)" 1360 . 1398)))
+          ("TIMEOUT_ENCRYPTION" . ((semantic-list "(1000U)" 1528 . 1535)))
+          ("TASK0_PRIORITY" . ((semantic-list "(tskIDLE_PRIORITY + 1)" 1312 . 1334)))
+          ("TASK1_PRIORITY" . ((semantic-list "(tskIDLE_PRIORITY + 2)" 1427 . 1449)))
+          ("NOF_QUEUES" . ((number "1" 1471 . 1472)))
+          ("MESSAGE_LENGTH" . ((number "16" 1497 . 1499)))
+          )
+))
+  :file "!drive_d!grey!prj_demo!hsm_freertos_mpc5748g!Sources!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -31,6 +31,7 @@
                       ggtags
                       function-args
                       sr-speedbar
+                      smooth-scrolling
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

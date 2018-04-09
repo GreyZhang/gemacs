@@ -14,6 +14,7 @@
   "4"  'select-window-4
   "pf" 'projectile-find-file
   "w/" 'split-window-right
+  "w-" 'split-window-below
   ;; "pj" 'projectile-find-tag
   "pj" 'helm-etags-select
   "pD" 'projectile-dired
