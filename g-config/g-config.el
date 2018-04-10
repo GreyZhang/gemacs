@@ -20,6 +20,7 @@
 (require 'g-window-numbering)
 (require 'g-powerline-evil)
 (require 'g-nyan-mode)
+(require 'g-which-key)
 
 
 

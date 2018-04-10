@@ -36,6 +36,7 @@
                       powerline
                       powerline-evil
                       nyan-mode
+                      which-key
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
@@ -147,6 +148,7 @@
  '(vc-annotate-very-old-color nil)
  '(weechat-color-list
    (unspecified "#272822" "#3C3D37" "#F70057" "#F92672" "#86C30D" "#A6E22E" "#BEB244" "#E6DB74" "#40CAE4" "#66D9EF" "#FB35EA" "#FD5FF0" "#74DBCD" "#A1EFE4" "#F8F8F2" "#F8F8F0"))
+ '(which-key-idle-delay 0.3)
  '(xterm-color-names
    ["#073642" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#eee8d5"])
  '(xterm-color-names-bright
