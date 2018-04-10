@@ -37,6 +37,7 @@
                       powerline-evil
                       nyan-mode
                       which-key
+                      expand-region
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)
