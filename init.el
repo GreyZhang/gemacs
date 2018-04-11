@@ -40,6 +40,7 @@
                       expand-region
                       dracula-theme
                       color-theme-sanityinc-tomorrow
+                      rainbow-delimiters
                 ) "Default packages")
 
  (setq package-selected-packages my/packages)

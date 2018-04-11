@@ -22,6 +22,7 @@
 (require 'g-nyan-mode)
 (require 'g-which-key)
 (require 'g-expand-region)
+(require 'g-rainbow-delimiters)
 
 
 
