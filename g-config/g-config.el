@@ -12,7 +12,7 @@
 (require 'g-projectile)
 (require 'g-neotree)
 ;; (require 'g-ggtags)
-(require 'g-function-args)
+;; (require 'g-function-args)
 (require 'g-smooth-scrolling)
 (require 'g-popwin)
 (require 'g-indent-region)
