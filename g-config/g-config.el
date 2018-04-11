@@ -26,5 +26,5 @@
 
 
 
-(setq initial-scratch-message "Happy hacking! Grey ♥ you!")
+(setq initial-scratch-message "Happy hacking and Grey ♥ you!")
 (provide 'g-config)
