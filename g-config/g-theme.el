@@ -2,7 +2,7 @@
 ;; (load-theme 'solarized-dark t)
 ;; (load-theme 'monokai t)
 ;; (load-theme 'leuven t)
-(load-theme 'dracula)
+(load-theme 'dracula t)
 
 
 
