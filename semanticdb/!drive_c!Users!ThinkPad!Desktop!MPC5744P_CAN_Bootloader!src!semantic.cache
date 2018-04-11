@@ -366,8 +366,8 @@
                 nil [4320 4704]))          
       :file "MPC574xP_SystemInit.c"
       :pointmax 4705
-      :fsize 4842
-      :lastmodtime '(23037 55290 0 0)
+      :fsize 4928
+      :lastmodtime '(23244 59841 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
@@ -403,17 +403,17 @@
                (:arguments 
                   ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [914 919]))                  
                 :type "void")
-                nil [899 1070])
+                nil [899 1076])
             ("main" function
                (:arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1081 1086]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1087 1092]))                  
                 :type "int")
-                nil [1072 5497]))          
+                nil [1078 5533]))          
       :file "main.c"
-      :pointmax 5499
-      :fsize 5498
-      :lastmodtime '(23037 56274 0 0)
-      :unmatched-syntax '((TYPEDEF 567 . 574))
+      :pointmax 5535
+      :fsize 5534
+      :lastmodtime '(23245 64527 0 0)
+      :unmatched-syntax nil
       :lexical-table 
         '(("APP_StartAddr" . ((semantic-list "(*(uint32_t*)0x00FA0004)" 415 . 439)))
           )
@@ -668,7 +668,7 @@
       :file "load.c"
       :pointmax 20250
       :fsize 20882
-      :lastmodtime '(23242 9810 0 0)
+      :lastmodtime '(23244 57616 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
