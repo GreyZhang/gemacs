@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ customize-themes
  sr-speedbar-toggle
  eval-buffer
- customize-themes
  neotree-toggle
  neotree-show
  neotree-dir
@@ -20,7 +20,7 @@
  (helm-recentf . 1)
  (eval-buffer . 41)
  (projectile-grep . 1)
- (customize-themes . 3)
+ (customize-themes . 4)
  (org-pomodoro-extend-last-clock . 1)
  (projectile-remove-known-project . 1)
  (projectile-clear-known-projects . 2)
