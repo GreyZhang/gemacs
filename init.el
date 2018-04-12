@@ -41,7 +41,8 @@
                       dracula-theme
                       color-theme-sanityinc-tomorrow
                       rainbow-delimiters
-                      aggressive-indent 
+                      aggressive-indent
+                      beacon
                       anaconda-mode
                       ) "Default packages")
 
@@ -72,6 +73,10 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["black" "red3" "ForestGreen" "yellow3" "blue" "magenta3" "DeepSkyBlue" "gray50"])
+ '(beacon-blink-delay 0.3)
+ '(beacon-blink-when-focused t)
+ '(beacon-blink-when-point-moves-horizontally 0)
+ '(beacon-blink-when-point-moves-vertically 0)
  '(company-backends
    (quote
     (company-bbdb company-nxml company-css company-eclim company-xcode company-cmake company-capf company-files

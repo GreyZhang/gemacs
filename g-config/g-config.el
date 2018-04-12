@@ -25,6 +25,7 @@
 (require 'g-rainbow-delimiters)
 (require 'g-aggressive-indent)
 (require 'g-anaconda-mode)
+(require 'g-beacon)
 
 
 

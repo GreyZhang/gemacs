@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ customize-group
  customize-themes
  sr-speedbar-toggle
  eval-buffer
  neotree-toggle
  neotree-show
  neotree-dir
- recentf-open-files
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (package-install . 1)
  (recentf-open-files . 17)
  (dired . 5)
- (customize-group . 2)
+ (customize-group . 3)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
  (eval-buffer . 41)
