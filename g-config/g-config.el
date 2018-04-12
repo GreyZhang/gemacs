@@ -23,6 +23,7 @@
 (require 'g-which-key)
 (require 'g-expand-region)
 (require 'g-rainbow-delimiters)
+(require 'g-aggressive-indent)
 
 
 
