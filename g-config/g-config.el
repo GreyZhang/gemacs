@@ -26,8 +26,8 @@
 ;; (require 'g-aggressive-indent)
 (require 'g-anaconda-mode)
 (require 'g-beacon)
-(provide 'g-coffee-mode)
-
+(require 'g-coffee-mode)
+(require 'g-flycheck)
 
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")

@@ -45,6 +45,7 @@
                       beacon
                       anaconda-mode
                       coffee-mode
+                      flycheck
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

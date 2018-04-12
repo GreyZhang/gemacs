@@ -15,7 +15,7 @@
  (package-install . 1)
  (recentf-open-files . 17)
  (dired . 5)
- (customize-group . 3)
+ (customize-group . 4)
  (image-dired-jump-thumbnail-buffer . 1)
  (helm-recentf . 1)
  (eval-buffer . 41)
