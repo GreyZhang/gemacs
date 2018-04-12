@@ -41,8 +41,9 @@
                       dracula-theme
                       color-theme-sanityinc-tomorrow
                       rainbow-delimiters
-                      aggressive-indent
-                ) "Default packages")
+                      aggressive-indent 
+                      anaconda-mode
+                      ) "Default packages")
 
  (setq package-selected-packages my/packages)
 
