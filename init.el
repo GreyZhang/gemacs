@@ -44,6 +44,7 @@
                       aggressive-indent
                       beacon
                       anaconda-mode
+                      coffee-mode
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
