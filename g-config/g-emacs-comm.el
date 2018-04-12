@@ -38,6 +38,7 @@
 (add-hook 'prog-mode-hook #'hs-minor-mode)
 (scroll-bar-mode 0)
 (global-hl-line-mode 1)
+(setq auto-save-default nil)
 
 
 

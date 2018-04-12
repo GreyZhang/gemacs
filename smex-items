@@ -7,7 +7,7 @@
  eval-buffer
  neotree-toggle
  neotree-show
- neotree-dir
+ recentf-open-files
 )
 
 ;; ----- smex-data -----
@@ -31,4 +31,5 @@
  (neotree-change-root . 10)
  (hide-leaves . 1)
  (sr-speedbar-toggle . 5)
+ (org-table-sum . 4)
 )
