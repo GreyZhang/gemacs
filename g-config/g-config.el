@@ -25,9 +25,12 @@
 (require 'g-rainbow-delimiters)
 ;; (require 'g-aggressive-indent)
 (require 'g-anaconda-mode)
-(require 'g-beacon)
+;; This is a beautifull display format.
+;; (require 'g-beacon)
+;; Not very useful for me
 (require 'g-coffee-mode)
-(require 'g-flycheck)
+;; Not very need
+;; (require 'g-flycheck)
 
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
