@@ -1,1 +1,0 @@
-("~/.emacs.d/" "c:/Users/ThinkPad/Desktop/MPC5744P_CAN_Bootloader/" "~/.emacs.d.bak/" "d:/grey/MPC5744P_CAN_Bootloader/" "d:/grey/prj_demo/adc_swtrigger_mpc5746c/" "d:/grey/prj_demo/MPC5744P_CAN_Bootloader_APP_LED_Toggle/" "d:/grey/prj_demo/Mixed_VLE_BookE_MPC5643L/" "e:/0-work/4-EQ/1-int/2-diab_env/")
