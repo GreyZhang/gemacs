@@ -46,6 +46,7 @@
                       anaconda-mode
                       coffee-mode
                       flycheck
+                      moe-theme
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

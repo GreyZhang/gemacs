@@ -1,2 +1,64 @@
 ls
 exit
+ls
+python clean.py 
+ls
+python clean.py 
+ls
+touch 3.bat 4.bat 5.bat 6.bat
+exit
+ls
+python wirte.py 
+exit
+ls
+python wirte.py 
+exit
+ls
+python wirte.py 
+ls
+exit
+ls
+python wirte.py 
+python read.py 
+exit
+ls
+python read.py 
+exit
+ls
+python read.py 
+exit
+ls
+python wirte.py 
+python read.py 
+exit
+python wirte.py 
+python read.py 
+exit
+python read.py 
+exit
+ls
+python 1.py 
+python 2.py 
+exit
+ls
+rm 1.bat 
+ls
+rm *.bat
+ls
+python 1.py 
+python 2.py 
+python 3.py 
+python 4.py 
+python 5.py
+python 6.py 
+exit
+ls
+python wirte.py 
+ls -al
+python read.py 
+rm demo.xls 
+python wirte.py 
+python read.py 
+python wirte.py 
+python read.py 
+exit
