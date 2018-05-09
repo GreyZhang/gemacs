@@ -17,6 +17,7 @@
   "w-" 'split-window-below
   ;; "pj" 'projectile-find-tag
   "pj" 'helm-etags-select
+  "pk" 'projectile-kill-buffers
   "pD" 'projectile-dired
   "psg" 'projectile-grep
   "pR" 'projectile-regenerate-tags
