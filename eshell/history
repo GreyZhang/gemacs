@@ -90,3 +90,14 @@ python 4.py
 python 5.py 
 python 6.py 
 exit
+ls
+python test.py 
+pip install Tkinter
+exit
+ls
+gcc demo.c 
+exit
+gcc demo.c 
+a.exe 
+./a.exe 
+exit

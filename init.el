@@ -47,6 +47,7 @@
                       coffee-mode
                       flycheck
                       moe-theme
+                      helm-ag
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

@@ -31,6 +31,7 @@
 (require 'g-coffee-mode)
 ;; Not very need
 ;; (require 'g-flycheck)
+(require 'g-helm-ag)
 
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")
