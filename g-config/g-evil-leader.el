@@ -19,7 +19,7 @@
   "pj" 'helm-etags-select
   "pk" 'projectile-kill-buffers
   "pD" 'projectile-dired
-  "psg" 'helm-do-ag-project-root
+  "ps" 'helm-do-ag-project-root
   "pR" 'projectile-regenerate-tags
   "fT" 'neotree-toggle)
 (provide 'g-evil-leader)
