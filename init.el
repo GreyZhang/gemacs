@@ -48,6 +48,7 @@
                       flycheck
                       moe-theme
                       helm-ag
+                      auto-complete
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)

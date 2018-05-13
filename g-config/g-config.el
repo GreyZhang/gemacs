@@ -1,7 +1,7 @@
 (require 'g-emacs-comm)
 (require 'g-evil)
 (require 'g-smex)
-(require 'g-company)
+;; (require 'g-company)
 (require 'g-smartparens)
 (require 'g-evil-leader)
 (require 'g-org)
@@ -32,6 +32,8 @@
 ;; Not very need
 ;; (require 'g-flycheck)
 (require 'g-helm-ag)
+(require 'g-auto-complete)
+
 
 
 (setq initial-scratch-message "Happy hacking and Grey ♥ you!")

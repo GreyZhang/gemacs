@@ -101,3 +101,15 @@ gcc demo.c
 a.exe 
 ./a.exe 
 exit
+ls
+exit
+ls
+python main.c 
+exit
+ls
+gcc main.c 
+./a.exe
+exit
+ls
+python test.py
+exit
