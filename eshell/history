@@ -1,13 +1,4 @@
 ls
-exit
-ls
-python clean.py 
-ls
-python clean.py 
-ls
-touch 3.bat 4.bat 5.bat 6.bat
-exit
-ls
 python wirte.py 
 exit
 ls
@@ -113,3 +104,25 @@ exit
 ls
 python test.py
 exit
+ls
+python code_counter.py 
+exit
+ls
+python code_counter.py 
+exit
+ls
+python hello.py 
+python script.py 
+exit
+ls
+pwd
+clear
+
+exit
+ls
+python for_loop.py 
+exit
+ls
+exit
+ls
+python

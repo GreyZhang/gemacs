@@ -1,7 +1,7 @@
 (require 'g-emacs-comm)
 (require 'g-evil)
 (require 'g-smex)
-;; (require 'g-company)
+(require 'g-company)
 (require 'g-smartparens)
 (require 'g-evil-leader)
 (require 'g-org)
@@ -19,20 +19,20 @@
 (require 'g-powerline)
 (require 'g-window-numbering)
 (require 'g-powerline-evil)
-(require 'g-nyan-mode)
+;; (require 'g-nyan-mode)
 (require 'g-which-key)
 (require 'g-expand-region)
-(require 'g-rainbow-delimiters)
+;; (require 'g-rainbow-delimiters)
 ;; (require 'g-aggressive-indent)
-(require 'g-anaconda-mode)
+;; (require 'g-anaconda-mode)
 ;; This is a beautifull display format.
 ;; (require 'g-beacon)
 ;; Not very useful for me
-(require 'g-coffee-mode)
+;; (require 'g-coffee-mode)
 ;; Not very need
 ;; (require 'g-flycheck)
-(require 'g-helm-ag)
-(require 'g-auto-complete)
+;; (require 'g-helm-ag)
+;; (require 'g-auto-complete)
 
 
 
