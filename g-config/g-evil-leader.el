@@ -19,7 +19,7 @@
   "pj" 'helm-etags-select
   "pk" 'projectile-kill-buffers
   "pD" 'projectile-dired
-  ;; "ps" 'helm-do-ag-project-root
+  "pss" 'projectile-ag
   "psg" 'projectile-grep
   "pR" 'projectile-regenerate-tags
   "fT" 'neotree-toggle)

@@ -9,6 +9,7 @@
 (require 'g-theme)
 (require 'g-hungry-delete)
 (require 'g-c-common-mode)
+(require 'g-ag)
 (require 'g-projectile)
 (require 'g-neotree)
 ;; (require 'g-ggtags)

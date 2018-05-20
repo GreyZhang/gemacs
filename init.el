@@ -49,6 +49,7 @@
                       moe-theme
                       helm-ag
                       auto-complete
+                      ag
                       ) "Default packages")
 
  (setq package-selected-packages my/packages)
