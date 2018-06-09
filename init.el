@@ -85,13 +85,13 @@
  '(company-minimum-prefix-length 1)
  '(company-tooltip-idle-delay 0)
  '(compilation-message-face (quote default))
+ '(ecb-options-version "2.50")
  '(helm-M-x-fuzzy-match t)
  '(helm-buffers-fuzzy-matching t)
  '(menu-bar-mode nil)
  '(show-paren-mode t)
  '(tool-bar-mode nil)
- '(which-key-idle-delay 0.3)
- )
+ '(which-key-idle-delay 0.3))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

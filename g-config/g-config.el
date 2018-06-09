@@ -17,9 +17,9 @@
 (require 'g-smooth-scrolling)
 (require 'g-popwin)
 (require 'g-indent-region)
-(require 'g-powerline)
+;; (require 'g-powerline)
 (require 'g-window-numbering)
-(require 'g-powerline-evil)
+;; (require 'g-powerline-evil)
 ;; (require 'g-nyan-mode)
 (require 'g-which-key)
 (require 'g-expand-region)
@@ -34,6 +34,9 @@
 ;; (require 'g-flycheck)
 ;; (require 'g-helm-ag)
 ;; (require 'g-auto-complete)
+;; cc-mode which is built in emacs already
+(require 'cc-mode)
+;; (require 'g-ecb)
 
 
 

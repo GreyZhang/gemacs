@@ -1,0 +1,66 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("PIT.h" include nil nil [190 206])
+            ("task_counter" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [252 285])
+            ("PitInit" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [301 306]))                  
+                :type "void")
+                nil [288 543])
+            ("PitCh0Isr301" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [563 568]))                  
+                :type "void")
+                nil [545 928]))          
+      :file "PIT.c"
+      :pointmax 930
+      :fsize 978
+      :lastmodtime '(23321 9965 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("PIT_CDATA_H" variable (:constant-flag t) nil [29 40]))          
+      :file "PIT_CData.h"
+      :pointmax 48
+      :fsize 50
+      :lastmodtime '(23305 13443 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("PIT_CDATA_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "PIT.h"
+      :fsize 187
+      :lastmodtime '(23314 17857 0 0))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "PIT_CData.c"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(23305 13443 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("typedefs.h" include nil nil [1 22]))          
+      :file "PIT_MData.c"
+      :pointmax 24
+      :fsize 25
+      :lastmodtime '(23314 17743 0 0)
+      :unmatched-syntax nil))
+  :file "!drive_c!Users!Administrator.MICROSO-DE3OSNT!Desktop!SJD_DEV!src!PIT!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
