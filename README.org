@@ -78,7 +78,8 @@
 - SPC pss --> projectile中使用ag全工程搜索
 - SPC psg --> projectile中使用grep全工程搜索
 - SPC pf --> projectilez中查找文件
-- PSC pD --> 进入工程根目录
+- SPC pD --> 进入工程根目录
+- F8 --> 打开或者关闭目录树
   
 
 ** ToDo List
