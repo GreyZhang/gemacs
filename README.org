@@ -66,6 +66,19 @@
 **** 文件管理功能
 - 模仿spacemacs的dired模式
 - powershell以及wav的增强支持功能
+**** 常用快捷键绑定
+- SPC SPC --> 激活命令输入
+- M-x --> smex
+- h、j、k、l --> evil普通模式中的左、下、上、右按键移动
+- SPC ff --> 查找打开或者创建文件
+- SPC fj --> dired-jump，可以进入dired-mode或者跳转到上一层
+- SPC pR --> projectile中创建或者更新TAGS 
+- SPC fed --> 打开init.el
+- SPC pj --> projectile中跳转到定义
+- SPC pss --> projectile中使用ag全工程搜索
+- SPC psg --> projectile中使用grep全工程搜索
+- SPC pf --> projectilez中查找文件
+- PSC pD --> 进入工程根目录
   
 
 ** ToDo List
