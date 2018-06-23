@@ -8,7 +8,8 @@
           (lambda ()
             (c-set-style "linux")
             (setq c-basic-offset 4)))
-
-
+(add-hook 'c++-mode-hook
+          (lambda ()
+            (c-set-style "stroustrup")))
 
 (provide 'g-c-common-mode)
