@@ -86,6 +86,9 @@
 - C-M-\ --> 选中代码区域格式化排版
 - C-k --> 选择company候选项（向前）
 - C-j --> 选择company候选项（向后）
+- F1 --> 打开home目录下的TDL
+- C-c C-t --> org-mode中标定TODO
+- F2 --> 番茄工作法激活
   
 
 ** ToDo List
