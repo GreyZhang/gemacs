@@ -77,7 +77,7 @@
 - SPC pj --> projectile中跳转到定义
 - SPC pss --> projectile中使用ag全工程搜索
 - SPC psg --> projectile中使用grep全工程搜索
-- SPC pf --> projectilez中查找文件
+- SPC pf --> projectile中查找文件
 - SPC pD --> 进入工程根目录
 - F8 --> 打开或者关闭目录树
 - SPC cl --> 屏蔽多行或者多行解除屏蔽
