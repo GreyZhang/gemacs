@@ -1,5 +1,5 @@
 (require 'powerline)
-(powerline-default-theme)
+;; (powerline-default-theme)
 
 
 (provide 'g-powerline)

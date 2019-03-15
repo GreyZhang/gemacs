@@ -21,6 +21,6 @@
   "pD" 'projectile-dired
   "pss" 'projectile-ag
   "psg" 'projectile-grep
-  "pR" 'projectile-regenerate-tags
+  "pG" 'projectile-regenerate-tags
   "fT" 'neotree-toggle)
 (provide 'g-evil-leader)

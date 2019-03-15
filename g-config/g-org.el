@@ -4,7 +4,7 @@
 (global-set-key (kbd "<f2>") 'org-pomodoro)
 (defun open-my-todo-list ()
   (interactive)
-  (find-file "~/task.org"))
+  (find-file "D:/01_Grey/04_ORG"))
 (global-set-key (kbd "<f1>") 'open-my-todo-list)
 ;; (global-set-key (kbd "<f3>") 'org-todo)
 (provide 'g-org)
