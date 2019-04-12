@@ -3,7 +3,7 @@
 
 ** Description:
 - A set of emacs configurations for myself.
-  
+
 ** Some features
 - Auto completion.
 - Servral themes.
@@ -13,12 +13,12 @@
 ** How to Install
 - mv ~/.emacs.d ~/.emacs.d.bak
 - git clone https://github.com/GreyZhang/gemacs ~/.emacs.d
-  
+
 
 ** 简介
 - 个人自用的一个EMACS配置。
 - 管理的信息是我自己配置的全文件备份，因此克隆即可使用，没有什么安装包需要联网安装。
-  
+
 ** 如何安装
 *** 说明
 - 工作原因，主要使用Windows，目前的测试也基本上都集中在Windows上。后期，针对其他平台，尤其是Mac还会进行测试。
@@ -72,13 +72,14 @@
 - h、j、k、l --> evil普通模式中的左、下、上、右按键移动
 - SPC ff --> 查找打开或者创建文件
 - SPC fj --> dired-jump，可以进入dired-mode或者跳转到上一层
-- SPC pG --> projectile中创建或者更新TAGS 
+- SPC pG --> projectile中创建或者更新TAGS
 - SPC fed --> 打开init.el
 - SPC pg --> 工程中跳转到定义
 - SPC pss --> projectile中使用ag全工程搜索
 - SPC psg --> projectile中使用grep全工程搜索
 - SPC pf --> projectile中查找文件
 - SPC pD --> 进入工程根目录
+- SPC xdw --> 删除所有的多余空白
 - F8 --> 打开或者关闭目录树
 - SPC cl --> 屏蔽多行或者多行解除屏蔽
 - C-= --> 选中区域
@@ -89,7 +90,7 @@
 - F1 --> 打开D盘中的一个org存储目录（根据需要自己定制）
 - C-c C-t --> org-mode中标定TODO
 - F2 --> 番茄工作法激活
-  
+
 
 ** ToDo List
 - 增补本配置的使用说明,加一份简短的教程

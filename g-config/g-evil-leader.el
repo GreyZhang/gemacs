@@ -22,5 +22,6 @@
   "pss" 'projectile-ag
   "psg" 'projectile-grep
   "pG" 'projectile-regenerate-tags
+  "xdw" 'whitespace-cleanup
   "fT" 'neotree-toggle)
 (provide 'g-evil-leader)
