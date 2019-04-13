@@ -23,5 +23,6 @@
   "psg" 'projectile-grep
   "pG" 'projectile-regenerate-tags
   "xdw" 'whitespace-cleanup
+  "tw" 'whitespace-mode
   "fT" 'neotree-toggle)
 (provide 'g-evil-leader)

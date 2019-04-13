@@ -19,7 +19,7 @@
 (setq-default indent-tabs-mode nil)
 (menu-bar-mode 0)
 (global-auto-revert-mode 1)
-(global-whitespace-mode t)
+;; (global-whitespace-mode t)
 
 ;; cc-mode with semantic
 ;; cc-mode with semantic
