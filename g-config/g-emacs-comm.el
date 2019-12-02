@@ -47,6 +47,7 @@
 ;;; activate and deactivate ecb
 (global-set-key (kbd "C-x C-;") 'ecb-activate)
 (global-set-key (kbd "C-x C-'") 'ecb-deactivate)
+(global-set-key (kbd "C-u") 'evil-scroll-up)
 ;;; show/hide ecb window
 (global-set-key (kbd "C-;") 'ecb-show-ecb-windows)
 (global-set-key (kbd "C-'") 'ecb-hide-ecb-windows)
@@ -81,7 +82,6 @@
 (global-set-key (kbd "C-x C-'") 'tmtxt/ecb-deactivate)
 (global-set-key (kbd "C-;") 'tmtxt/ecb-show-ecb-windows)
 (global-set-key (kbd "C-'") 'tmtxt/ecb-hide-ecb-windows)
-
 
 ;;
 (provide 'g-emacs-comm)
